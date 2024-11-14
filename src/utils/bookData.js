@@ -3,7 +3,7 @@ const books = [
       "id": 1,
       "title": "To Kill a Mockingbird",
       "description": "A novel by Harper Lee published in 1960, dealing with serious issues like racial injustice.",
-      "image_url": "https://i.pinimg.com/736x/bd/5f/b5/bd5fb566c8dbe0c3d1d51fd9fb9e8842.jpg",
+      "image_url": "https://i.pinimg.com/736x/d6/66/5f/d6665f5f592fe6f1442c2123a5f45902.jpg",
       "author": "Harper Lee"
   },
   {
