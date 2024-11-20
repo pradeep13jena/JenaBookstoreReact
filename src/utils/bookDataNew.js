@@ -1,5 +1,5 @@
 const books = [
-{
+  {
     "id": 1,
     "title": "To Kill a Mockingbird",
     "description": "A novel by Harper Lee published in 1960, dealing with serious issues like racial injustice.",
@@ -10,9 +10,12 @@ const books = [
     "summary": "The novel focuses on the Finch family, particularly Scout Finch and her father, Atticus Finch, as they navigate issues of race and justice in the Deep South during the 1930s.",
     "price": "$10.99",
     "publish_date": "1960-07-11",
-    "genre": "Fiction, Historical"
-  },
-  {
+    "genre": ["Fiction", "Historical"],
+    "language": "English",
+    "pages": 336,
+    "format": "Paperback",
+    "rating": 4.8
+}, {
     "id": 2,
     "title": "1984",
     "description": "A dystopian novel by George Orwell that critiques totalitarianism and extreme political ideology.",
@@ -23,9 +26,12 @@ const books = [
     "summary": "1984 presents a chilling portrayal of a totalitarian society under constant surveillance, where the government manipulates reality and enforces extreme control over the people.",
     "price": "$9.99",
     "publish_date": "1949-06-08",
-    "genre": "Dystopian, Science Fiction"
-  },
-  {
+    "genre": ["Dystopian", "Science Fiction"],
+    "language": "English",
+    "pages": 328,
+    "format": "Paperback",
+    "rating": 4.7
+}, {
     "id": 3,
     "title": "Fahrenheit 451",
     "description": "A dystopian novel by Ray Bradbury about a society where books are banned and 'firemen' burn any that are found.",
@@ -36,9 +42,12 @@ const books = [
     "summary": "In a future society where books are illegal, Guy Montag, a fireman, becomes disillusioned with his role in book burning and begins to question the oppressive government.",
     "price": "$8.99",
     "publish_date": "1953-10-19",
-    "genre": "Dystopian, Science Fiction"
-  },
-  {
+    "genre": ["Dystopian", "Science Fiction"],
+    "language": "English",
+    "pages": 194,
+    "format": "Paperback",
+    "rating": 4.3
+}, {
     "id": 4,
     "title": "The Great Gatsby",
     "description": "A novel by F. Scott Fitzgerald that explores themes of wealth, excess, and the American Dream in the 1920s.",
@@ -49,9 +58,12 @@ const books = [
     "summary": "The story of Jay Gatsby’s obsessive love for Daisy Buchanan and his attempt to recapture the past during the Roaring Twenties, illustrating the failure of the American Dream.",
     "price": "$12.99",
     "publish_date": "1925-04-10",
-    "genre": "Fiction, Classic"
-  },
-  {
+    "genre": ["Fiction", "Classic"],
+    "language": "English",
+    "pages": 180,
+    "format": "Paperback",
+    "rating": 4.4
+}, {
     "id": 5,
     "title": "Moby Dick",
     "description": "A novel by Herman Melville about the obsessive quest of Captain Ahab for revenge against the white whale.",
@@ -62,9 +74,12 @@ const books = [
     "summary": "The novel follows Ishmael as he joins the whaling ship Pequod, captained by the obsessed Ahab, on a perilous voyage to find and kill Moby Dick, the legendary white whale.",
     "price": "$15.99",
     "publish_date": "1851-10-18",
-    "genre": "Adventure, Classic"
-  },
-  {
+    "genre": ["Adventure", "Classic"],
+    "language": "English",
+    "pages": 635,
+    "format": "Paperback",
+    "rating": 4.1
+}, {
     "id": 6,
     "title": "War and Peace",
     "description": "A historical novel by Leo Tolstoy that intertwines the lives of Russian aristocracy with the events of the Napoleonic wars.",
@@ -75,9 +90,12 @@ const books = [
     "summary": "War and Peace chronicles the French invasion of Russia and the impact of the Napoleonic era on Russian society through the lives of Pierre Bezukhov, Prince Andrei Bolkonsky, and Natasha Rostova.",
     "price": "$18.99",
     "publish_date": "1869-01-01",
-    "genre": "Historical, Classic"
-  },
-  {
+    "genre": ["Historical", "Classic"],
+    "language": "Russian",
+    "pages": 1225,
+    "format": "Paperback",
+    "rating": 4.8
+}, {
     "id": 7,
     "title": "The Catcher in the Rye",
     "description": "A novel by J.D. Salinger that deals with the complexities of teenage angst and alienation.",
@@ -88,9 +106,12 @@ const books = [
     "summary": "The novel follows Holden Caulfield, a disillusioned and alienated teenager, as he struggles to find his place in the world after being expelled from his prep school.",
     "price": "$11.99",
     "publish_date": "1951-07-16",
-    "genre": "Fiction, Coming-of-Age"
-  },
-  {
+    "genre": ["Fiction", "Coming-of-Age"],
+    "language": "English",
+    "pages": 277,
+    "format": "Paperback",
+    "rating": 4.0
+}, {
     "id": 8,
     "title": "The Hobbit",
     "description": "A fantasy novel by J.R.R. Tolkien that follows the journey of Bilbo Baggins in Middle-Earth.",
@@ -101,22 +122,28 @@ const books = [
     "summary": "The Hobbit tells the story of Bilbo Baggins, a hobbit who embarks on an unexpected adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.",
     "price": "$10.99",
     "publish_date": "1937-09-21",
-    "genre": "Fantasy, Adventure"
-  },
-  {
-    "id": 9,
-    "title": "Pride and Prejudice",
-    "description": "A classic novel by Jane Austen that explores themes of love, society, and the role of women.",
-    "image_url": "https://i.pinimg.com/564x/e6/7d/a6/e67da631bf95e370ee610985e025aa68.jpg",
-    "author": "Jane Austen",
-    "publisher": "T. Egerton, Whitehall",
-    "isbn": "978-1503290563",
-    "summary": "The novel follows Elizabeth Bennet as she navigates the social complexities of 19th century England and her evolving relationship with the proud, enigmatic Mr. Darcy.",
-    "price": "$7.99",
-    "publish_date": "1813-01-28",
-    "genre": "Romance, Classic"
-  },
-  {
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English",
+    "pages": 310,
+    "format": "Paperback",
+    "rating": 4.7
+}, {
+  "id": 9,
+  "title": "Pride and Prejudice",
+  "description": "A classic novel by Jane Austen that explores themes of love, society, and the role of women.",
+  "author": "Jane Austen",
+  "image_url": "https://i.pinimg.com/736x/7d/b9/5b/7db95bb50179f4471924ee5a67f3034d.jpg",
+  "publisher": "T. Egerton, Whitehall",
+  "isbn": "978-1503290563",
+  "summary": "The novel follows Elizabeth Bennet as she navigates the social complexities of 19th century England and her evolving relationship with the proud, enigmatic Mr. Darcy.",
+  "price": "$7.99",
+  "publish_date": "1813-01-28",
+  "genre": ["Romance", "Classic"],
+  "language": "English",
+  "pages": 364,
+  "format": "Paperback",
+  "rating": 4.29
+}, {
     "id": 10,
     "title": "Jane Eyre",
     "description": "A novel by Charlotte Brontë that explores the moral and spiritual development of the orphaned Jane Eyre.",
@@ -127,9 +154,12 @@ const books = [
     "summary": "Jane Eyre is the story of an orphaned girl who grows up to become a strong, independent woman, navigating her moral and emotional struggles, and her passionate love for the enigmatic Mr. Rochester.",
     "price": "$9.99",
     "publish_date": "1847-10-16",
-    "genre": "Romance, Gothic Fiction"
-  }, 
-  {
+    "genre": ["Romance", "Gothic Fiction"],
+    "language": "English",
+    "pages": 532,
+    "format": "Paperback",
+    "rating": 4.5
+}, {
     "id": 11,
     "title": "Brave New World",
     "description": "A dystopian novel by Aldous Huxley set in a future society driven by technological control and superficial pleasure.",
@@ -140,9 +170,12 @@ const books = [
     "summary": "Brave New World depicts a future society where people are genetically engineered, conditioned to serve a rigid social structure, and kept in line by a drug-induced state of happiness.",
     "price": "$14.99",
     "publish_date": "1932-08-31",
-    "genre": "Dystopian, Science Fiction"
-  },
-  {
+    "genre": ["Dystopian", "Science Fiction"],
+    "language": "English",
+    "pages": 268,
+    "format": "Paperback",
+    "rating": 4.2
+}, {
     "id": 12,
     "title": "The Odyssey",
     "description": "An epic poem attributed to Homer that tells the adventures of Odysseus as he tries to return home after the Trojan War.",
@@ -153,9 +186,12 @@ const books = [
     "summary": "The Odyssey follows the long and perilous journey of Odysseus as he faces divine obstacles, battles monsters, and struggles to return to his wife, Penelope, and son, Telemachus, in Ithaca.",
     "price": "$9.99",
     "publish_date": "8th Century BC",
-    "genre": "Epic, Classical Literature"
-  },
-  {
+    "genre": ["Epic", "Classical Literature"],
+    "language": "Ancient Greek",
+    "pages": 541,
+    "format": "Paperback",
+    "rating": 4.7
+}, {
     "id": 13,
     "title": "The Brothers Karamazov",
     "description": "A philosophical novel by Fyodor Dostoevsky that delves into deep questions of faith, morality, and family conflict.",
@@ -166,9 +202,12 @@ const books = [
     "summary": "The Brothers Karamazov follows the tumultuous lives of the Karamazov brothers, exploring themes of faith, doubt, free will, and the search for meaning in a corrupt world.",
     "price": "$12.99",
     "publish_date": "1880-11-01",
-    "genre": "Philosophical Fiction, Psychological Drama"
-  },
-  {
+    "genre": ["Philosophical Fiction", "Psychological Drama"],
+    "language": "Russian",
+    "pages": 796,
+    "format": "Paperback",
+    "rating": 4.8
+}, {
     "id": 14,
     "title": "Anna Karenina",
     "description": "A novel by Leo Tolstoy that explores themes of love, infidelity, and Russian society.",
@@ -179,9 +218,12 @@ const books = [
     "summary": "Anna Karenina tells the tragic story of a woman trapped in an adulterous affair, contrasting her downfall with the moral struggles of other characters in 19th-century Russian society.",
     "price": "$13.99",
     "publish_date": "1877-01-01",
-    "genre": "Romantic Drama, Historical Fiction"
-  },
-  {
+    "genre": ["Romantic Drama", "Historical Fiction"],
+    "language": "Russian",
+    "pages": 864,
+    "format": "Paperback",
+    "rating": 4.7
+}, {
     "id": 15,
     "title": "The Count of Monte Cristo",
     "description": "A novel that follows Edmond Dantès as he seeks revenge against those who wronged him.",
@@ -192,9 +234,12 @@ const books = [
     "summary": "Edmond Dantès is wrongfully imprisoned for a crime he did not commit. After escaping from prison, he embarks on a quest for revenge against those who betrayed him, ultimately learning about forgiveness and redemption.",
     "price": "$16.99",
     "publish_date": "1844-08-28",
-    "genre": "Adventure, Historical Fiction"
-  },
-  {
+    "genre": ["Adventure", "Historical Fiction"],
+    "language": "French",
+    "pages": 1276,
+    "format": "Paperback",
+    "rating": 4.8
+}, {
     "id": 16,
     "title": "Crime and Punishment",
     "description": "A psychological novel by Fyodor Dostoevsky that examines the moral dilemmas of crime and redemption.",
@@ -205,9 +250,12 @@ const books = [
     "summary": "Crime and Punishment tells the story of Rodion Raskolnikov, a student who commits a crime in an attempt to prove that he is above moral law, only to face the consequences of his actions.",
     "price": "$11.99",
     "publish_date": "1866-01-01",
-    "genre": "Psychological Fiction, Crime Drama"
-  },
-  {
+    "genre": ["Psychological Fiction", "Crime Drama"],
+    "language": "Russian",
+    "pages": 671,
+    "format": "Paperback",
+    "rating": 4.5
+},{
     "id": 17,
     "title": "Wuthering Heights",
     "description": "A novel by Emily Brontë that explores the passionate and destructive relationship between Heathcliff and Catherine Earnshaw.",
@@ -218,48 +266,62 @@ const books = [
     "summary": "Wuthering Heights is a gothic novel about the tumultuous and obsessive love between Heathcliff and Catherine Earnshaw, set in the isolated Yorkshire moors.",
     "price": "$10.99",
     "publish_date": "1847-12-01",
-    "genre": "Gothic Fiction, Romantic Drama"
-  },
-  {
-    "id": 18,
-    "title": "The Picture of Dorian Gray",
-    "description": "A novel that explores themes of vanity, moral corruption, and the consequences of a hedonistic lifestyle.",
-    "image_url": "https://i.pinimg.com/564x/5c/c8/92/5cc892def63aa646ba9a9925be52bc94.jpg",
-    "author": "Oscar Wilde",
-    "publisher": "Ward, Lock & Co.",
-    "isbn": "978-0141439570",
-    "summary": "The Picture of Dorian Gray follows the life of a young man who remains outwardly youthful while a portrait of him ages, reflecting the corruption of his soul as he indulges in a hedonistic lifestyle.",
-    "price": "$8.99",
-    "publish_date": "1890-06-01",
-    "genre": "Philosophical Fiction, Gothic Fiction"
-  },
-  {
-    "id": 19,
-    "title": "Great Expectations",
-    "description": "A novel by Charles Dickens that follows the life and development of an orphan named Pip.",
-    "image_url": "https://i.pinimg.com/564x/7e/1e/a2/7e1ea2053f4b28acce25859b8cec5299.jpg",
-    "author": "Charles Dickens",
-    "publisher": "Chapman & Hall",
-    "isbn": "978-1853260049",
-    "summary": "Great Expectations tells the story of Pip, an orphan who rises from humble beginnings to great wealth, but struggles with his moral and emotional development along the way.",
-    "price": "$13.99",
-    "publish_date": "1861-12-01",
-    "genre": "Coming-of-Age, Social Commentary"
-  },
-  {
-    "id": 20,
-    "title": "Dracula",
-    "description": "A Gothic novel by Bram Stoker that introduces the character of Count Dracula and popularizes vampire lore.",
-    "image_url": "https://i.pinimg.com/564x/97/79/df/9779df2888e09fc93848cc8975b97aea.jpg",
-    "author": "Bram Stoker",
-    "publisher": "Archibald Constable and Co.",
-    "isbn": "978-1503281898",
-    "summary": "Dracula tells the story of a young man named Jonathan Harker who becomes entangled with the dark and sinister Count Dracula, who plans to move to England and spread his curse.",
-    "price": "$7.99",
-    "publish_date": "1897-05-26",
-    "genre": "Gothic Fiction, Horror"
-  },
-  {
+    "genre": ["Gothic Fiction", "Romantic Drama"],
+    "language": "English",
+    "pages": 416,
+    "format": "Paperback",
+    "rating": 4.4
+},{
+  "id": 18,
+  "title": "The Picture of Dorian Gray",
+  "description": "A novel that explores themes of vanity, moral corruption, and the consequences of a hedonistic lifestyle.",
+  "image_url": "https://i.pinimg.com/564x/5c/c8/92/5cc892def63aa646ba9a9925be52bc94.jpg",
+  "author": "Oscar Wilde",
+  "publisher": "Ward, Lock & Co.",
+  "isbn": "978-0141439570",
+  "summary": "The Picture of Dorian Gray follows the life of a young man who remains outwardly youthful while a portrait of him ages, reflecting the corruption of his soul as he indulges in a hedonistic lifestyle.",
+  "price": "$8.99",
+  "publish_date": "1890-06-01",
+  "genre": ["Philosophical Fiction", "Gothic Fiction"],
+  "language": "English",
+  "pages": 254,
+  "format": "Paperback",
+  "rating": 4.3
+},
+{
+  "id": 19,
+  "title": "Great Expectations",
+  "description": "A novel by Charles Dickens that follows the life and development of an orphan named Pip.",
+  "image_url": "https://i.pinimg.com/564x/7e/1e/a2/7e1ea2053f4b28acce25859b8cec5299.jpg",
+  "author": "Charles Dickens",
+  "publisher": "Chapman & Hall",
+  "isbn": "978-1853260049",
+  "summary": "Great Expectations tells the story of Pip, an orphan who rises from humble beginnings to great wealth, but struggles with his moral and emotional development along the way.",
+  "price": "$13.99",
+  "publish_date": "1861-12-01",
+  "genre": ["Coming-of-Age", "Social Commentary"],
+  "language": "English",
+  "pages": 505,
+  "format": "Paperback",
+  "rating": 4.4
+},
+{
+  "id": 20,
+  "title": "Dracula",
+  "description": "A Gothic novel by Bram Stoker that introduces the character of Count Dracula and popularizes vampire lore.",
+  "image_url": "https://i.pinimg.com/564x/97/79/df/9779df2888e09fc93848cc8975b97aea.jpg",
+  "author": "Bram Stoker",
+  "publisher": "Archibald Constable and Co.",
+  "isbn": "978-1503281898",
+  "summary": "Dracula tells the story of a young man named Jonathan Harker who becomes entangled with the dark and sinister Count Dracula, who plans to move to England and spread his curse.",
+  "price": "$7.99",
+  "publish_date": "1897-05-26",
+  "genre": ["Gothic Fiction", "Horror"],
+  "language": "English",
+  "pages": 418,
+  "format": "Paperback",
+  "rating": 4.3
+}, {
     "id": 21,
     "title": "Les Misérables",
     "description": "A novel by Victor Hugo that delves into social injustice in France, centering on the story of ex-convict Jean Valjean.",
@@ -270,9 +332,13 @@ const books = [
     "summary": "Les Misérables follows the life of Jean Valjean, a former convict, as he seeks redemption while being pursued by Inspector Javert, set against the backdrop of revolutionary France.",
     "price": "$15.99",
     "publish_date": "1862-01-01",
-    "genre": "Historical Fiction"
-  },
-  {
+    "genre": ["Historical Fiction"],
+    "language": "French",
+    "pages": 1463,
+    "format": "Hardcover",
+    "rating": 4.8
+},
+{
     "id": 22,
     "title": "Madame Bovary",
     "description": "A novel by Gustave Flaubert that examines the life and tragic flaws of Emma Bovary.",
@@ -283,9 +349,13 @@ const books = [
     "summary": "Madame Bovary tells the tragic story of Emma Bovary, a farmer's wife who is dissatisfied with her provincial life and seeks fulfillment through romantic and materialistic desires.",
     "price": "$9.99",
     "publish_date": "1857-04-01",
-    "genre": "Literary Fiction"
-  },
-  {
+    "genre": ["Literary Fiction"],
+    "language": "French",
+    "pages": 432,
+    "format": "Paperback",
+    "rating": 4.3
+},
+{
     "id": 23,
     "title": "Frankenstein",
     "description": "A novel by Mary Shelley about a scientist who creates a sapient creature, exploring themes of ambition, hubris, and alienation.",
@@ -296,9 +366,13 @@ const books = [
     "summary": "Frankenstein tells the story of Victor Frankenstein, a scientist who creates a living creature from body parts, only to face the consequences of his actions as the creature becomes increasingly vengeful.",
     "price": "$8.99",
     "publish_date": "1818-01-01",
-    "genre": "Science Fiction"
-  },
-  {
+    "genre": ["Science Fiction"],
+    "language": "English",
+    "pages": 280,
+    "format": "Paperback",
+    "rating": 4.4
+},
+{
     "id": 24,
     "title": "The Alchemist",
     "description": "A novel by Paulo Coelho that follows the journey of a young shepherd in search of personal legend.",
@@ -309,9 +383,13 @@ const books = [
     "summary": "The Alchemist is a philosophical novel about a young shepherd, Santiago, who embarks on a journey to find his personal legend and fulfill his dreams, encountering wisdom and challenges along the way.",
     "price": "$10.99",
     "publish_date": "1988-05-01",
-    "genre": "Adventure, Fantasy"
-  },
-  {
+    "genre": ["Adventure", "Fantasy"],
+    "language": "Portuguese",
+    "pages": 208,
+    "format": "Paperback",
+    "rating": 4.7
+},
+{
     "id": 25,
     "title": "One Hundred Years of Solitude",
     "description": "A novel by Gabriel Garcia Marquez that tells the multi-generational story of the Buendía family.",
@@ -322,9 +400,13 @@ const books = [
     "summary": "One Hundred Years of Solitude is a sweeping narrative about the Buendía family, whose members are trapped in cycles of passion, tragedy, and political upheaval, set in the mythical town of Macondo.",
     "price": "$14.99",
     "publish_date": "1967-06-05",
-    "genre": "Magical Realism"
-  },
-  {
+    "genre": ["Magical Realism"],
+    "language": "Spanish",
+    "pages": 417,
+    "format": "Paperback",
+    "rating": 4.6
+},
+{
     "id": 26,
     "title": "The Road",
     "description": "A novel by Cormac McCarthy that follows a father and son in a post-apocalyptic world.",
@@ -335,9 +417,13 @@ const books = [
     "summary": "The Road tells the harrowing story of a father and son who journey across a desolate, post-apocalyptic landscape, struggling to survive and maintain their humanity.",
     "price": "$13.99",
     "publish_date": "2006-09-26",
-    "genre": "Post-apocalyptic Fiction"
-  },
-  {
+    "genre": ["Post-apocalyptic Fiction"],
+    "language": "English",
+    "pages": 287,
+    "format": "Paperback",
+    "rating": 4.5
+},
+{
     "id": 27,
     "title": "The Book Thief",
     "description": "A novel by Markus Zusak that tells the story of a young girl in Nazi Germany who steals books and shares them with others.",
@@ -348,9 +434,13 @@ const books = [
     "summary": "The Book Thief is a story set in Nazi Germany, narrated by Death, about a young girl named Liesel who steals books and shares them with those around her, including a Jewish man hiding in her basement.",
     "price": "$12.99",
     "publish_date": "2005-03-14",
-    "genre": "Historical Fiction"
-  },
-  {
+    "genre": ["Historical Fiction"],
+    "language": "English",
+    "pages": 552,
+    "format": "Hardcover",
+    "rating": 4.6
+},
+{
     "id": 28,
     "title": "The Old Man and the Sea",
     "description": "A novel by Ernest Hemingway about an aging fisherman’s struggle to catch a giant marlin.",
@@ -361,189 +451,245 @@ const books = [
     "summary": "The Old Man and the Sea is the story of Santiago, an old fisherman, and his epic struggle to catch a giant marlin, symbolizing human perseverance and dignity.",
     "price": "$8.99",
     "publish_date": "1952-09-01",
-    "genre": "Literary Fiction"
-  },
-  {
-    "id": 29,
-    "title": "Life of Pi",
-    "description": "A novel by Yann Martel that tells the survival story of a boy stranded at sea with a Bengal tiger.",
-    "image_url": "https://i.pinimg.com/564x/a2/03/69/a20369c6d670c425d3ecfa00f4fe5213.jpg",
-    "author": "Yann Martel",
-    "publisher": "Knopf Canada",
-    "isbn": "978-0156027328",
-    "summary": "Life of Pi follows Pi Patel, a young boy stranded on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker, exploring themes of faith, survival, and storytelling.",
-    "price": "$11.99",
-    "publish_date": "2001-09-11",
-    "genre": "Adventure, Fantasy"
-  },
-  {
-    "id": 30,
-    "title": "The Kite Runner",
-    "description": "A novel by Khaled Hosseini about friendship and redemption set in Afghanistan.",
-    "image_url": "https://i.pinimg.com/736x/9d/6a/5b/9d6a5bcfcf52b8cd82a207c3ce12b575.jpg",
-    "author": "Khaled Hosseini",
-    "publisher": "Riverhead Books",
-    "isbn": "978-1594480003",
-    "summary": "The Kite Runner tells the story of Amir, a young boy from Kabul, who witnesses a betrayal that will haunt him for the rest of his life, and his long journey towards redemption.",
-    "price": "$14.99",
-    "publish_date": "2003-05-29",
-    "genre": "Historical Fiction"
-  },
-  {
+    "genre": ["Literary Fiction"],
+    "language": "English",
+    "pages": 127,
+    "format": "Hardcover",
+    "rating": 4.2
+},
+{
+  "id": 29,
+  "title": "Life of Pi",
+  "description": "A novel by Yann Martel that tells the survival story of a boy stranded at sea with a Bengal tiger.",
+  "image_url": "https://i.pinimg.com/564x/a2/03/69/a20369c6d670c425d3ecfa00f4fe5213.jpg",
+  "author": "Yann Martel",
+  "publisher": "Knopf Canada",
+  "isbn": "978-0156027328",
+  "summary": "Life of Pi follows Pi Patel, a young boy stranded on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker, exploring themes of faith, survival, and storytelling.",
+  "price": "$11.99",
+  "publish_date": "2001-09-11",
+  "genre": ["Adventure", "Fantasy"],
+  "language": "English",
+  "pages": 319,
+  "format": "Paperback",
+  "rating": 4.5
+}, {
+  "id": 30,
+  "title": "The Kite Runner",
+  "description": "A novel by Khaled Hosseini about friendship and redemption set in Afghanistan.",
+  "image_url": "https://i.pinimg.com/736x/9d/6a/5b/9d6a5bcfcf52b8cd82a207c3ce12b575.jpg",
+  "author": "Khaled Hosseini",
+  "publisher": "Riverhead Books",
+  "isbn": "978-1594480003",
+  "summary": "The Kite Runner tells the story of Amir, a young boy from Kabul, who witnesses a betrayal that will haunt him for the rest of his life, and his long journey towards redemption.",
+  "price": "$14.99",
+  "publish_date": "2003-05-29",
+  "genre": ["Historical Fiction"],
+  "language": "English",
+  "pages": 371,
+  "format": "Paperback",
+  "rating": 4.5
+}, {
     "id": 31,
     "title": "The Bell Jar",
     "description": "A novel by Sylvia Plath that explores mental illness and the struggle for identity in the 1950s.",
     "image_url": "https://i.pinimg.com/564x/26/7f/b1/267fb166e443c8798c645e55dd3ac74d.jpg",
     "author": "Sylvia Plath",
-    "genre": "Literary Fiction",
+    "genre": ["Literary Fiction"],
     "publisher": "Harper & Row",
     "isbn": "978-0060837029",
     "summary": "The Bell Jar is a semi-autobiographical novel about Esther Greenwood, a young woman who struggles with mental illness while trying to make sense of her identity in 1950s America.",
     "price": "$10.99",
-    "publish_date": "1963-01-01"
-  },
-  {
+    "publish_date": "1963-01-01",
+    "language": "English",
+    "pages": 288,
+    "format": "Paperback",
+    "rating": 4.2
+},
+{
     "id": 32,
     "title": "The Shining",
     "description": "A horror novel by Stephen King about a family trapped in a haunted hotel, where the father's mental state deteriorates.",
     "image_url": "https://i.pinimg.com/564x/e8/e7/04/e8e7046d4033157f27fe610045c60fcb.jpg",
     "author": "Stephen King",
-    "genre": "Horror",
+    "genre": ["Horror"],
     "publisher": "Doubleday",
     "isbn": "978-0307743657",
     "summary": "The Shining tells the story of Jack Torrance, a writer and alcoholic who accepts a job as the winter caretaker of the Overlook Hotel, where his sanity begins to unravel as supernatural forces take hold.",
     "price": "$9.99",
-    "publish_date": "1977-01-28"
-  },
-  {
+    "publish_date": "1977-01-28",
+    "language": "English",
+    "pages": 447,
+    "format": "Paperback",
+    "rating": 4.6
+},
+{
     "id": 33,
     "title": "The Secret Garden",
     "description": "A young girl who discovers a hidden garden and brings it back to life.",
     "image_url": "https://i.pinimg.com/564x/af/44/80/af4480b2d95058a9c6790b45d0e05d13.jpg",
     "author": "Frances Burnett",
-    "genre": "Children's Fiction",
+    "genre": ["Children's Fiction"],
     "publisher": "Frederick A. Stokes Company",
     "isbn": "978-0486280279",
     "summary": "The Secret Garden is about Mary Lennox, a lonely, spoiled girl who discovers a secret garden in her uncle's estate and, with the help of new friends, revives both the garden and herself.",
     "price": "$6.99",
-    "publish_date": "1911-08-01"
-  },
-  {
+    "publish_date": "1911-08-01",
+    "language": "English",
+    "pages": 331,
+    "format": "Paperback",
+    "rating": 4.4
+},
+{
     "id": 34,
     "title": "The Girl on the Train",
     "description": "About a woman who becomes involved in a missing person case after witnessing something suspicious from a train.",
     "image_url": "https://i.pinimg.com/564x/d5/9e/cd/d59ecd32b83fdc4b4bfd3b5eddafa991.jpg",
     "author": "Paula Hawkins",
-    "genre": "Thriller",
+    "genre": ["Thriller"],
     "publisher": "Riverhead Books",
     "isbn": "978-1594633669",
     "summary": "The Girl on the Train follows Rachel, a woman who becomes obsessed with a couple she sees from her train window, only to find herself entangled in their tragic lives after the woman goes missing.",
     "price": "$12.99",
-    "publish_date": "2015-01-13"
-  },
-  {
+    "publish_date": "2015-01-13",
+    "language": "English",
+    "pages": 336,
+    "format": "Paperback",
+    "rating": 4.1
+},
+{
     "id": 35,
     "title": "The Handmaid's Tale",
     "description": "A dystopian novel by Margaret Atwood that imagines a totalitarian future where women are enslaved as child bearers.",
     "image_url": "https://i.pinimg.com/736x/16/06/dc/1606dc25dab204272c40e79d3729dfbf.jpg",
     "author": "Margaret Atwood",
-    "genre": "Dystopian Fiction",
+    "genre": ["Dystopian Fiction"],
     "publisher": "McClelland and Stewart",
     "isbn": "978-0385490818",
     "summary": "The Handmaid's Tale imagines a totalitarian regime in which women are enslaved and forced to bear children for the ruling class, exploring themes of power, resistance, and the loss of freedom.",
     "price": "$13.99",
-    "publish_date": "1985-08-01"
-  },
-  {
+    "publish_date": "1985-08-01",
+    "language": "English",
+    "pages": 311,
+    "format": "Paperback",
+    "rating": 4.5
+},
+{
     "id": 36,
     "title": "Slaughterhouse-Five",
     "description": "A science-fiction novel by Kurt Vonnegut that blends war, time travel, and the absurdity of existence.",
     "image_url": "https://i.pinimg.com/564x/ff/90/d6/ff90d6a3b15f8969f0ed8cad687fd9f4.jpg",
     "author": "Kurt Vonnegut",
-    "genre": "Science Fiction",
+    "genre": ["Science Fiction"],
     "publisher": "Delacorte Press",
     "isbn": "978-0440180296",
     "summary": "Slaughterhouse-Five follows Billy Pilgrim, an optometrist who becomes 'unstuck in time' and experiences key moments of his life, including his time in a POW camp during World War II and his abduction by aliens.",
     "price": "$9.99",
-    "publish_date": "1969-03-31"
-  },
-  {
+    "publish_date": "1969-03-31",
+    "language": "English",
+    "pages": 275,
+    "format": "Paperback",
+    "rating": 4.3
+},
+{
     "id": 37,
     "title": "The Giver",
     "description": "A dystopian novel by Lois Lowry about a society that has eliminated pain and strife by converting to 'Sameness.'",
     "image_url": "https://i.pinimg.com/564x/0c/49/57/0c4957b72fc91e8f30fd69db89c2ce22.jpg",
     "author": "Lois Lowry",
-    "genre": "Dystopian Fiction",
+    "genre": ["Dystopian Fiction"],
     "publisher": "Houghton Mifflin",
     "isbn": "978-0544336261",
     "summary": "The Giver is set in a controlled society where everyone is forced to conform. A young boy, Jonas, is chosen to be the next Receiver of Memory and learns the painful truth about the world.",
     "price": "$8.99",
-    "publish_date": "1993-04-26"
-  },
-  {
+    "publish_date": "1993-04-26",
+    "language": "English",
+    "pages": 240,
+    "format": "Paperback",
+    "rating": 4.2
+},
+{
     "id": 38,
     "title": "The Outsiders",
     "description": "A novel by S.E. Hinton about the struggles of two rival teenage gangs divided by their socioeconomic status.",
     "image_url": "https://i.pinimg.com/564x/42/48/c4/4248c4076f847848776d6c1d126d54b4.jpg",
     "author": "S.E. Hinton",
-    "genre": "Young Adult Fiction",
+    "genre": ["Young Adult Fiction"],
     "publisher": "Viking Press",
     "isbn": "978-0142407332",
     "summary": "The Outsiders is about two teenage gangs, the Greasers and the Socs, whose lives are torn apart by violence, class struggles, and loyalty.",
     "price": "$7.99",
-    "publish_date": "1967-04-24"
-  },
-  {
+    "publish_date": "1967-04-24",
+    "language": "English",
+    "pages": 192,
+    "format": "Paperback",
+    "rating": 4.3
+},
+{
     "id": 39,
     "title": "Memoirs of a Geisha",
     "description": "A historical novel by Arthur Golden that tells the story of a young girl who becomes one of Japan’s most celebrated geisha.",
     "image_url": "https://i.pinimg.com/564x/fc/92/46/fc9246047d99dc57bd4e20d168d48ae6.jpg",
     "author": "Arthur Golden",
-    "genre": "Historical Fiction",
+    "genre": ["Historical Fiction"],
     "publisher": "Alfred A. Knopf",
     "isbn": "978-0679772898",
     "summary": "Memoirs of a Geisha traces the life of Sayuri, a young girl who grows up to become one of the most famous geishas in Kyoto, navigating the hardships of her life and her relationships.",
     "price": "$10.99",
-    "publish_date": "1997-09-23"
+    "publish_date": "1997-09-23",
+    "language": "English",
+    "pages": 448,
+    "format": "Paperback",
+    "rating": 4.4
   },
   {
-    "id": 40,
-    "title": "The Catch-22",
-    "description": "A satirical war novel by Joseph Heller that explores the absurdities of war and bureaucracy.",
-    "image_url": "https://i.pinimg.com/564x/8b/0e/bb/8b0ebb3f046c1fcd1e6a57a464ebaee2.jpg",
-    "author": "Joseph Heller",
-    "genre": "Satire",
-    "publisher": "Simon & Schuster",
-    "isbn": "978-1451626650",
-    "summary": "The Catch-22 is a darkly humorous story about Captain John Yossarian, a U.S. bomber pilot, and the absurdity of the bureaucratic military system that puts soldiers' lives at risk.",
-    "price": "$12.99",
-    "publish_date": "1961-11-10"
+      "id": 40,
+      "title": "Catch-22",
+      "description": "A satirical war novel by Joseph Heller that explores the absurdities of war and bureaucracy.",
+      "image_url": "https://i.pinimg.com/564x/8b/0e/bb/8b0ebb3f046c1fcd1e6a57a464ebaee2.jpg",
+      "author": "Joseph Heller",
+      "genre": ["Satire"],
+      "publisher": "Simon & Schuster",
+      "isbn": "978-1451626650",
+      "summary": "Catch-22 is a darkly humorous story about Captain John Yossarian, a U.S. bomber pilot, and the absurdity of the bureaucratic military system that puts soldiers' lives at risk.",
+      "price": "$12.99",
+      "publish_date": "1961-11-10",
+      "language": "English",
+      "pages": 453,
+      "format": "Paperback",
+      "rating": 4.1
   },
   {
-    "id": 41,
-    "title": "White Teeth",
-    "description": "A novel by Zadie Smith that spans multiple generations and explores cultural and racial diversity in Britain.",
-    "image_url": "https://i.pinimg.com/564x/4a/b6/70/4ab670872299d6d5e2b62a2179cc12fb.jpg",
-    "author": "Zadie Smith",
-    "genre": "Literary Fiction",
-    "publisher": "Penguin Press",
-    "isbn": "978-1573229989",
-    "summary": "White Teeth explores the intertwined lives of two families in London and their complex histories shaped by cultural and racial diversity, examining themes of immigration, identity, and assimilation.",
-    "price": "$14.99",
-    "publish_date": "2000-04-06"
-  },
+      "id": 41,
+      "title": "White Teeth",
+      "description": "A novel by Zadie Smith that spans multiple generations and explores cultural and racial diversity in Britain.",
+      "image_url": "https://i.pinimg.com/564x/4a/b6/70/4ab670872299d6d5e2b62a2179cc12fb.jpg",
+      "author": "Zadie Smith",
+      "genre": ["Literary Fiction"],
+      "publisher": "Penguin Press",
+      "isbn": "978-1573229989",
+      "summary": "White Teeth explores the intertwined lives of two families in London and their complex histories shaped by cultural and racial diversity, examining themes of immigration, identity, and assimilation.",
+      "price": "$14.99",
+      "publish_date": "2000-04-06",
+      "language": "English",
+      "pages": 464,
+      "format": "Paperback",
+      "rating": 4.2
+  }
+  ,
   {
     "id": 42,
     "title": "The Goldfinch",
     "description": "A Pulitzer Prize-winning novel by Donna Tartt about a boy who survives an explosion at an art museum and takes a priceless painting.",
     "image_url": "https://i.pinimg.com/564x/c9/c9/b5/c9c9b57582d3d6d2e0037763c105a98b.jpg",
     "author": "Donna Tartt",
-    "genre": "Literary Fiction",
+    "genre": ["Literary Fiction"],
     "publisher": "Little, Brown and Company",
     "isbn": "978-0316055444",
     "summary": "The Goldfinch follows Theo, a young boy who survives a bombing at an art museum, and his journey through grief, guilt, and the obsession with a stolen painting that alters the course of his life.",
     "price": "$15.99",
-    "publish_date": "2013-10-22"
+    "publish_date": "2013-10-22",
+    "language": "English", "pages": 784, "format": "Hardcover", "rating": 4.4
   },
   {
     "id": 43,
@@ -551,12 +697,13 @@ const books = [
     "description": "A fantasy novel by Erin Morgenstern about a magical competition between two young illusionists.",
     "image_url": "https://i.pinimg.com/564x/7b/b4/10/7bb410cead00aca531a165e596cf96b1.jpg",
     "author": "Erin Morgenstern",
-    "genre": "Fantasy",
+    "genre": ["Fantasy"],
     "publisher": "Doubleday",
     "isbn": "978-0385534635",
     "summary": "The Night Circus follows the rivalry between two magicians, Celia and Marco, who are bound by a magical competition that spans several years, set against the backdrop of a magical circus.",
     "price": "$13.99",
-    "publish_date": "2011-09-13"
+    "publish_date": "2011-09-13",
+    "language": "English", "pages": 387, "format": "Hardcover", "rating": 4.1
   },
   {
     "id": 44,
@@ -564,12 +711,13 @@ const books = [
     "description": "A novel which follows a young boy's journey to uncover the story of a mysterious author in post-war Barcelona.",
     "image_url": "https://i.pinimg.com/564x/5f/c8/d0/5fc8d047b0ad106dfcf9266feabe1d26.jpg",
     "author": "Carlos Zafón",
-    "genre": "Mystery",
+    "genre": ["Mystery"],
     "publisher": "Penguin Books",
     "isbn": "978-0143034902",
     "summary": "The Shadow of the Wind is a literary thriller set in post-World War II Barcelona, following Daniel Sempere as he unravels the mystery behind an obscure book by an unknown author, uncovering dark secrets.",
     "price": "$12.99",
-    "publish_date": "2004-04-06"
+    "publish_date": "2004-04-06",
+    "language": "English", "pages": 487, "format": "Paperback", "rating": 4.5
   },
   {
     "id": 45,
@@ -577,12 +725,13 @@ const books = [
     "description": "A historical novel by Charles Dickens set during the turbulent times of the French Revolution.",
     "image_url": "https://i.pinimg.com/564x/2c/4e/96/2c4e9644f3adc78f33542f736a4d38e4.jpg",
     "author": "Charles Dickens",
-    "genre": "Historical Fiction",
+    "genre": ["Historical Fiction"],
     "publisher": "Chapman and Hall",
     "isbn": "978-0141439600",
     "summary": "A Tale of Two Cities is set during the French Revolution and tells the story of the French Dr. Manette, his family, and the Englishman Charles Darnay, focusing on themes of sacrifice and resurrection.",
     "price": "$9.99",
-    "publish_date": "1859-04-30"
+    "publish_date": "1859-04-30",
+    "language": "English", "pages": 448, "format": "Paperback", "rating": 4.0
   },
   {
     "id": 46,
@@ -590,12 +739,13 @@ const books = [
     "description": "A novel by Alice Sebold that follows the story of a young girl who watches over her family from the afterlife.",
     "image_url": "https://i.pinimg.com/564x/5e/ac/79/5eac79fc9016b2d6500839293fab8d5c.jpg",
     "author": "Alice Sebold",
-    "genre": "Mystery",
+    "genre": ["Mystery"],
     "publisher": "Back Bay Books",
     "isbn": "978-0316040105",
     "summary": "The Lovely Bones tells the story of Susie Salmon, a young girl who is murdered and watches from her afterlife as her family copes with the grief and search for her killer.",
     "price": "$11.99",
-    "publish_date": "2002-06-01"
+    "publish_date": "2002-06-01",
+    "language": "English", "pages": 328, "format": "Hardcover", "rating": 4.0
   },
   {
     "id": 47,
@@ -603,12 +753,13 @@ const books = [
     "description": "A novel by Toni Morrison about the haunting legacy of slavery, centered on the life of an escaped slave and her family.",
     "image_url": "https://i.pinimg.com/564x/a7/56/cd/a756cd62afd5c51c03a9b3e16579eabc.jpg",
     "author": "Toni Morrison",
-    "genre": "Historical Fiction",
+    "genre": ["Historical Fiction"],
     "publisher": "Alfred A. Knopf",
     "isbn": "978-1400033416",
     "summary": "Beloved tells the story of Sethe, an escaped slave, and her family’s haunting by a mysterious figure, Beloved, symbolizing the trauma and memories of slavery.",
     "price": "$14.99",
-    "publish_date": "1987-09-16"
+    "publish_date": "1987-09-16",
+    "language": "English", "pages": 324, "format": "Paperback", "rating": 4.3
   },
   {
     "id": 48,
@@ -616,25 +767,27 @@ const books = [
     "description": "A novel by Ian McEwan that examines themes of love, guilt, and the far-reaching consequences of a young girl’s lie.",
     "image_url": "https://i.pinimg.com/564x/2b/37/33/2b3733aea83e5ba12c2b617d1cf69ca2.jpg",
     "author": "Ian McEwan",
-    "genre": "Historical Fiction",
+    "genre":[ "Historical Fiction"],
     "publisher": "Nan A. Talese",
     "isbn": "978-0385721790",
     "summary": "Atonement follows Briony Tallis, a young girl who makes a false accusation that changes the lives of her sister Cecilia and her lover Robbie, and explores the consequences of her actions over the years.",
     "price": "$12.99",
-    "publish_date": "2001-09-04"
+    "publish_date": "2001-09-04",
+    "language": "English", "pages": 480, "format": "Paperback", "rating": 4.0
   },
   {
     "id": 49,
     "title": "The Book of M",
     "description": "A dystopian novel blending science fiction and fantasy with themes of memory loss and the search for identity.",
-    "image_url": "https://i.pinimg.com/736x/c6/1f/40/c61f40ac9df8167960ee721c54facdaa.jpg",
+    "image_url": "https://i.pinimg.com/736x/e8/e8/87/e8e88778914fb43693887fe0415637e9.jpg",
     "author": "Peng Shepherd",
-    "genre": "Science Fiction, Fantasy",
+    "genre": ["Science Fiction", "Fantasy"],
     "publisher": "William Morrow",
     "isbn": "978-0062564993",
     "summary": "Set in a future where people are losing their memories in increasingly bizarre ways, the novel follows a husband and wife separated by tragedy as they try to survive in a fragmented world.",
     "price": "$15.99",
-    "publish_date": "2018-06-05"
+    "publish_date": "2018-06-05",
+    "language": "English", "pages": 496, "format": "Hardcover", "rating": 4.2
   },
   {
     "id": 50,
@@ -642,12 +795,13 @@ const books = [
     "description": "A retelling of the story of Circe, a character from Greek mythology, exploring themes of power, transformation, and loneliness.",
     "image_url": "https://i.pinimg.com/736x/15/da/56/15da56e0b5e8b1ec5b2d29aa8462f841.jpg",
     "author": "Madeline Miller",
-    "genre": "Fantasy, Mythology",
+    "genre": ["Fantasy", "Mythology"],
     "publisher": "Little, Brown and Company",
     "isbn": "978-0316339142",
     "summary": "In this novel, Circe is a powerful yet isolated figure, cursed to live in exile. The story reimagines her journey and explores her transformation from a young woman into a goddess.",
     "price": "$14.99",
-    "publish_date": "2018-04-10"
+    "publish_date": "2018-04-10",
+    "language": "English", "pages": 393, "format": "Hardcover", "rating": 4.6
   },
   {
     "id": 51,
@@ -655,12 +809,13 @@ const books = [
     "description": "A dark and atmospheric fantasy novel about a young woman with a dangerous destiny, set in a world where magic and wolves hold a deadly power.",
     "image_url": "https://i.pinimg.com/736x/55/be/72/55be723101fbc0de92d362c16fce5f23.jpg",
     "author": "Hannah Whitten",
-    "genre": "Fantasy, Dark Fantasy",
+    "genre": ["Fantasy", "Dark Fantasy"],
     "publisher": "Orbit",
     "isbn": "978-0316705493",
     "summary": "Red has been raised for one purpose: to be sacrificed to the Wolf in the woods. But when she is taken to the heart of the forest, she uncovers secrets about her magic, her fate, and the mysterious force she must confront.",
     "price": "$16.99",
-    "publish_date": "2021-06-01"
+    "publish_date": "2021-06-01",
+    "language": "English", "pages": 480, "format": "Paperback", "rating": 4.1
   },
   {
     "id": 52,
@@ -673,19 +828,21 @@ const books = [
     "summary": "The novel revolves around the strained relationship between two boys, Charles Kingshaw and Edmund Hooper, as they grapple with issues of power, cruelty, and fear in an isolated English mansion.",
     "price": "$11.99",
     "publish_date": "1970-09-01",
-    "genre": "Psychological Fiction, Drama"
+    "genre": ["Psychological Fiction", "Drama"],
+    "language": "English", "pages": 224, "format": "Paperback", "rating": 4.0
   }, {
     "id": 53,
     "title": "Into the Woods",
     "description": "A dark fairy tale-inspired novel by Tana French exploring mysteries and psychological complexities.",
-    "image_url": "https://i.pinimg.com/736x/61/2e/73/612e73b9bea9f4d34c0795175082b62c.jpg",
+    "image_url": "https://i.pinimg.com/736x/4a/37/69/4a3769786ab7b2698fd904cbbe3b7a76.jpg",
     "author": "Tana French",
     "publisher": "Viking Press",
     "isbn": "978-0143113492",
     "summary": "The story follows detective Rob Ryan as he investigates a chilling murder in a small Irish town, confronting haunting memories of his own childhood.",
     "price": "$13.99",
     "publish_date": "2007-05-17",
-    "genre": "Mystery, Psychological Fiction"
+    "genre": ["Mystery", "Psychological Fiction"],
+    "language": "English", "pages": 368, "format": "Paperback", "rating": 4.5
   },
   {
     "id": 54,
@@ -698,7 +855,11 @@ const books = [
     "summary": "The book weaves historical narratives and cultural tales of the Icelandic horse, exploring its role in the Icelandic identity and landscape.",
     "price": "$16.99",
     "publish_date": "2016-09-01",
-    "genre": "Historical Fiction, Literary Fiction"
+    "genre": ["Historical Fiction", "Literary Fiction"],
+    "language": "English", 
+    "pages": 320, 
+    "format": "Hardcover", 
+    "rating": 4.7
   },
   {
     "id": 55,
@@ -711,7 +872,11 @@ const books = [
     "summary": "Harry discovers his magical lineage and attends Hogwarts School, where he begins his journey into the wizarding world and confronts the dark wizard Voldemort.",
     "price": "$12.99",
     "publish_date": "1997-06-26",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", 
+    "pages": 223, 
+    "format": "Hardcover", 
+    "rating": 4.8
   },
   {
     "id": 56,
@@ -724,7 +889,11 @@ const books = [
     "summary": "Harry investigates the mystery of the Chamber of Secrets, uncovering secrets of Hogwarts and Voldemort’s past.",
     "price": "$12.99",
     "publish_date": "1998-07-02",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", 
+    "pages": 251, 
+    "format": "Hardcover", 
+    "rating": 4.7
   },
   {
     "id": 57,
@@ -737,7 +906,11 @@ const books = [
     "summary": "Harry learns about Sirius Black, a prisoner who has escaped Azkaban and is said to be after him, while uncovering hidden truths.",
     "price": "$12.99",
     "publish_date": "1999-07-08",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", 
+    "pages": 317, 
+    "format": "Hardcover", 
+    "rating": 4.8
   },
   {
     "id": 58,
@@ -750,7 +923,11 @@ const books = [
     "summary": "Harry is unexpectedly entered into the dangerous Triwizard Tournament, facing life-threatening challenges and Voldemort's return.",
     "price": "$14.99",
     "publish_date": "2000-07-08",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", 
+    "pages": 636, 
+    "format": "Hardcover", 
+    "rating": 4.9
   },
   {
     "id": 59,
@@ -763,7 +940,8 @@ const books = [
     "summary": "Harry fights against the Ministry’s denial of Voldemort’s return and forms Dumbledore’s Army to prepare for the battles ahead.",
     "price": "$16.99",
     "publish_date": "2003-06-21",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", "pages": 766, "format": "Hardcover", "rating": 4.8
   },
   {
     "id": 60,
@@ -776,7 +954,8 @@ const books = [
     "summary": "Harry and Dumbledore delve into Voldemort’s past through memories, preparing for the war that looms.",
     "price": "$17.99",
     "publish_date": "2005-07-16",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", "pages": 607, "format": "Hardcover", "rating": 4.8
   },
   {
     "id": 61,
@@ -789,7 +968,11 @@ const books = [
     "summary": "Harry and his friends embark on a quest to destroy Voldemort's Horcruxes, culminating in an epic battle at Hogwarts.",
     "price": "$18.99",
     "publish_date": "2007-07-21",
-    "genre": "Fantasy, Adventure"
+    "genre": ["Fantasy", "Adventure"],
+    "language": "English", 
+    "pages": 607, 
+    "format": "Hardcover", 
+    "rating": 4.9
   },
   {
     "id": 62,
@@ -802,7 +985,11 @@ const books = [
     "summary": "Tom discovers a magical garden that lets him travel back in time, forming an unlikely friendship with a girl named Hatty.",
     "price": "$10.99",
     "publish_date": "1958-12-12",
-    "genre": "Children's Fiction, Fantasy"
+    "genre": ["Children's Fiction", "Fantasy"],
+    "language": "English", 
+    "pages": 240, 
+    "format": "Paperback", 
+    "rating": 4.7
   },
   {
     "id": 63,
@@ -815,7 +1002,11 @@ const books = [
     "summary": "The story follows Jamie, one of Peter Pan's Lost Boys, as he uncovers Peter's darker nature.",
     "price": "$14.99",
     "publish_date": "2017-07-04",
-    "genre": "Dark Fantasy, Reimagined Classics"
+    "genre":["Dark Fantasy", "Reimagined Classics"],
+    "language": "English", 
+    "pages": 304, 
+    "format": "Paperback", 
+    "rating": 4.6
   },
   {
     "id": 64,
@@ -828,7 +1019,11 @@ const books = [
     "summary": "Ivy Gamble, a private investigator, is drawn into a magical world while solving a murder at a school of magic.",
     "price": "$15.99",
     "publish_date": "2019-06-04",
-    "genre": "Urban Fantasy, Mystery"
+    "genre": ["Urban Fantasy", "Mystery"],
+    "language": "English", 
+    "pages": 368, 
+    "format": "Paperback", 
+    "rating": 4.4
   },
   {
     "id": 65,
@@ -841,7 +1036,11 @@ const books = [
     "summary": "The novel follows Hayri Irdal, an eccentric man who becomes involved in the surreal Time Regulation Institute, a parody of modern bureaucratic life.",
     "price": "$13.99",
     "publish_date": "1962-01-01",
-    "genre": "Satire, Literary Fiction"
+    "genre": ["Satire", "Literary Fiction"],
+    "language": "English", 
+    "pages": 416, 
+    "format": "Paperback", 
+    "rating": 4.2
   }  
 ]
 

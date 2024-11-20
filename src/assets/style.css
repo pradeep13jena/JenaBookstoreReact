@@ -37,7 +37,7 @@ section{
   font-size: larger;  
   outline: none;
   border: 1px solid black;
-  font-family: "Playfair Display", serif;;
+  font-family: "Playfair Display", serif;
   /* box-shadow: 20px 0px 8px 20px #f5f5dc, -20px 0px 8px 20px #f5f5dc */
 }
 
@@ -73,6 +73,7 @@ section{
   width: 200px;
   height: 450px;
   /* border: 2px solid black; */
+  text-decoration: none;
   border-radius: 5px;
   margin: 5px;
   overflow: hidden;
@@ -121,7 +122,7 @@ section{
 
   .books{
     width: 150px;
-    height: 300px;
+    height: 310px;
   }
 
   .bookList{
