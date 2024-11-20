@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import '../assets/style.css'
 import BookCard from './Books'
-import books from '../utils/bookData.js'
-console.log(books)
+import books from '../utils/bookDataNew.js'
 
 function App() {
   const [searchBook, setSearchBook] = useState("")

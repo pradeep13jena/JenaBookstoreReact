@@ -23,7 +23,7 @@ section{
   gap: 0.7em;
   position: sticky;
   top: 10px;
-  z-index: 10;
+  z-index: 12;
   background-color: #f5f5dc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -114,10 +114,44 @@ section{
   }
 }
 
+@media (max-width: 760px){
+  section{
+    margin: 2em 4px;
+  }
+
+  .books{
+    width: 150px;
+    height: 300px;
+  }
+
+  .bookList{
+    gap: .5em;
+  }
+
+  .bookList img{
+    width: 150px;
+    height: 180px;
+    margin-bottom: 0px;
+  }
+
+  .books div {
+    padding: 6px;
+  }
+
+  #bookTitle, #bookAuthor {
+    font-size: .8em;
+    margin-bottom: 4px;
+  }
+
+  #bookDesc{
+    font-size: .7em;
+  }
+}
+
 @media (max-width: 588px){
   .searchBar{
     margin-bottom: 4em;
-    width: 80%;
+    width: 90%;
     margin: 0, 2em;
     gap: 0.3em;
   }
@@ -140,9 +174,6 @@ section{
 }
 
 @media (max-width: 425px){
-  .searchBar{
-    width: 100%;
-  }
 
   .inputbox{
     height: 2.5em;
