@@ -1,5 +1,5 @@
 const books = [
-  {
+{
     "id": 1,
     "title": "To Kill a Mockingbird",
     "description": "A novel by Harper Lee published in 1960, dealing with serious issues like racial injustice.",
@@ -9,7 +9,8 @@ const books = [
     "isbn": "978-0061120084",
     "summary": "The novel focuses on the Finch family, particularly Scout Finch and her father, Atticus Finch, as they navigate issues of race and justice in the Deep South during the 1930s.",
     "price": "$10.99",
-    "publish_date": "1960-07-11"
+    "publish_date": "1960-07-11",
+    "genre": "Fiction, Historical"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@ const books = [
     "isbn": "978-0451524935",
     "summary": "1984 presents a chilling portrayal of a totalitarian society under constant surveillance, where the government manipulates reality and enforces extreme control over the people.",
     "price": "$9.99",
-    "publish_date": "1949-06-08"
+    "publish_date": "1949-06-08",
+    "genre": "Dystopian, Science Fiction"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@ const books = [
     "isbn": "978-1451673319",
     "summary": "In a future society where books are illegal, Guy Montag, a fireman, becomes disillusioned with his role in book burning and begins to question the oppressive government.",
     "price": "$8.99",
-    "publish_date": "1953-10-19"
+    "publish_date": "1953-10-19",
+    "genre": "Dystopian, Science Fiction"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@ const books = [
     "isbn": "978-0743273565",
     "summary": "The story of Jay Gatsby’s obsessive love for Daisy Buchanan and his attempt to recapture the past during the Roaring Twenties, illustrating the failure of the American Dream.",
     "price": "$12.99",
-    "publish_date": "1925-04-10"
+    "publish_date": "1925-04-10",
+    "genre": "Fiction, Classic"
   },
   {
     "id": 5,
@@ -57,8 +61,9 @@ const books = [
     "isbn": "978-1503280786",
     "summary": "The novel follows Ishmael as he joins the whaling ship Pequod, captained by the obsessed Ahab, on a perilous voyage to find and kill Moby Dick, the legendary white whale.",
     "price": "$15.99",
-    "publish_date": "1851-10-18"
-  }, 
+    "publish_date": "1851-10-18",
+    "genre": "Adventure, Classic"
+  },
   {
     "id": 6,
     "title": "War and Peace",
@@ -69,7 +74,8 @@ const books = [
     "isbn": "978-0140447934",
     "summary": "War and Peace chronicles the French invasion of Russia and the impact of the Napoleonic era on Russian society through the lives of Pierre Bezukhov, Prince Andrei Bolkonsky, and Natasha Rostova.",
     "price": "$18.99",
-    "publish_date": "1869-01-01"
+    "publish_date": "1869-01-01",
+    "genre": "Historical, Classic"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@ const books = [
     "isbn": "978-0316769488",
     "summary": "The novel follows Holden Caulfield, a disillusioned and alienated teenager, as he struggles to find his place in the world after being expelled from his prep school.",
     "price": "$11.99",
-    "publish_date": "1951-07-16"
+    "publish_date": "1951-07-16",
+    "genre": "Fiction, Coming-of-Age"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@ const books = [
     "isbn": "978-0547928227",
     "summary": "The Hobbit tells the story of Bilbo Baggins, a hobbit who embarks on an unexpected adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.",
     "price": "$10.99",
-    "publish_date": "1937-09-21"
+    "publish_date": "1937-09-21",
+    "genre": "Fantasy, Adventure"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@ const books = [
     "isbn": "978-1503290563",
     "summary": "The novel follows Elizabeth Bennet as she navigates the social complexities of 19th century England and her evolving relationship with the proud, enigmatic Mr. Darcy.",
     "price": "$7.99",
-    "publish_date": "1813-01-28"
+    "publish_date": "1813-01-28",
+    "genre": "Romance, Classic"
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@ const books = [
     "isbn": "978-1503278194",
     "summary": "Jane Eyre is the story of an orphaned girl who grows up to become a strong, independent woman, navigating her moral and emotional struggles, and her passionate love for the enigmatic Mr. Rochester.",
     "price": "$9.99",
-    "publish_date": "1847-10-16"
+    "publish_date": "1847-10-16",
+    "genre": "Romance, Gothic Fiction"
   }, 
   {
     "id": 11,
@@ -129,7 +139,8 @@ const books = [
     "isbn": "978-0060850524",
     "summary": "Brave New World depicts a future society where people are genetically engineered, conditioned to serve a rigid social structure, and kept in line by a drug-induced state of happiness.",
     "price": "$14.99",
-    "publish_date": "1932-08-31"
+    "publish_date": "1932-08-31",
+    "genre": "Dystopian, Science Fiction"
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@ const books = [
     "isbn": "978-0143039952",
     "summary": "The Odyssey follows the long and perilous journey of Odysseus as he faces divine obstacles, battles monsters, and struggles to return to his wife, Penelope, and son, Telemachus, in Ithaca.",
     "price": "$9.99",
-    "publish_date": "8th Century BC"
+    "publish_date": "8th Century BC",
+    "genre": "Epic, Classical Literature"
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@ const books = [
     "isbn": "978-0374528379",
     "summary": "The Brothers Karamazov follows the tumultuous lives of the Karamazov brothers, exploring themes of faith, doubt, free will, and the search for meaning in a corrupt world.",
     "price": "$12.99",
-    "publish_date": "1880-11-01"
+    "publish_date": "1880-11-01",
+    "genre": "Philosophical Fiction, Psychological Drama"
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@ const books = [
     "isbn": "978-0143035009",
     "summary": "Anna Karenina tells the tragic story of a woman trapped in an adulterous affair, contrasting her downfall with the moral struggles of other characters in 19th-century Russian society.",
     "price": "$13.99",
-    "publish_date": "1877-01-01"
+    "publish_date": "1877-01-01",
+    "genre": "Romantic Drama, Historical Fiction"
   },
   {
     "id": 15,
@@ -177,8 +191,9 @@ const books = [
     "isbn": "978-1503282291",
     "summary": "Edmond Dantès is wrongfully imprisoned for a crime he did not commit. After escaping from prison, he embarks on a quest for revenge against those who betrayed him, ultimately learning about forgiveness and redemption.",
     "price": "$16.99",
-    "publish_date": "1844-08-28"
-  }, 
+    "publish_date": "1844-08-28",
+    "genre": "Adventure, Historical Fiction"
+  },
   {
     "id": 16,
     "title": "Crime and Punishment",
@@ -189,7 +204,8 @@ const books = [
     "isbn": "978-0486454115",
     "summary": "Crime and Punishment tells the story of Rodion Raskolnikov, a student who commits a crime in an attempt to prove that he is above moral law, only to face the consequences of his actions.",
     "price": "$11.99",
-    "publish_date": "1866-01-01"
+    "publish_date": "1866-01-01",
+    "genre": "Psychological Fiction, Crime Drama"
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@ const books = [
     "isbn": "978-0141439556",
     "summary": "Wuthering Heights is a gothic novel about the tumultuous and obsessive love between Heathcliff and Catherine Earnshaw, set in the isolated Yorkshire moors.",
     "price": "$10.99",
-    "publish_date": "1847-12-01"
+    "publish_date": "1847-12-01",
+    "genre": "Gothic Fiction, Romantic Drama"
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@ const books = [
     "isbn": "978-0141439570",
     "summary": "The Picture of Dorian Gray follows the life of a young man who remains outwardly youthful while a portrait of him ages, reflecting the corruption of his soul as he indulges in a hedonistic lifestyle.",
     "price": "$8.99",
-    "publish_date": "1890-06-01"
+    "publish_date": "1890-06-01",
+    "genre": "Philosophical Fiction, Gothic Fiction"
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@ const books = [
     "isbn": "978-1853260049",
     "summary": "Great Expectations tells the story of Pip, an orphan who rises from humble beginnings to great wealth, but struggles with his moral and emotional development along the way.",
     "price": "$13.99",
-    "publish_date": "1861-12-01"
+    "publish_date": "1861-12-01",
+    "genre": "Coming-of-Age, Social Commentary"
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@ const books = [
     "isbn": "978-1503281898",
     "summary": "Dracula tells the story of a young man named Jonathan Harker who becomes entangled with the dark and sinister Count Dracula, who plans to move to England and spread his curse.",
     "price": "$7.99",
-    "publish_date": "1897-05-26"
+    "publish_date": "1897-05-26",
+    "genre": "Gothic Fiction, Horror"
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@ const books = [
     "isbn": "978-0451419439",
     "summary": "Les Misérables follows the life of Jean Valjean, a former convict, as he seeks redemption while being pursued by Inspector Javert, set against the backdrop of revolutionary France.",
     "price": "$15.99",
-    "publish_date": "1862-01-01"
+    "publish_date": "1862-01-01",
+    "genre": "Historical Fiction"
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@ const books = [
     "isbn": "978-0140449129",
     "summary": "Madame Bovary tells the tragic story of Emma Bovary, a farmer's wife who is dissatisfied with her provincial life and seeks fulfillment through romantic and materialistic desires.",
     "price": "$9.99",
-    "publish_date": "1857-04-01"
+    "publish_date": "1857-04-01",
+    "genre": "Literary Fiction"
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@ const books = [
     "isbn": "978-1503280785",
     "summary": "Frankenstein tells the story of Victor Frankenstein, a scientist who creates a living creature from body parts, only to face the consequences of his actions as the creature becomes increasingly vengeful.",
     "price": "$8.99",
-    "publish_date": "1818-01-01"
+    "publish_date": "1818-01-01",
+    "genre": "Science Fiction"
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@ const books = [
     "isbn": "978-0062315007",
     "summary": "The Alchemist is a philosophical novel about a young shepherd, Santiago, who embarks on a journey to find his personal legend and fulfill his dreams, encountering wisdom and challenges along the way.",
     "price": "$10.99",
-    "publish_date": "1988-05-01"
+    "publish_date": "1988-05-01",
+    "genre": "Adventure, Fantasy"
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@ const books = [
     "isbn": "978-0060883287",
     "summary": "One Hundred Years of Solitude is a sweeping narrative about the Buendía family, whose members are trapped in cycles of passion, tragedy, and political upheaval, set in the mythical town of Macondo.",
     "price": "$14.99",
-    "publish_date": "1967-06-05"
+    "publish_date": "1967-06-05",
+    "genre": "Magical Realism"
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@ const books = [
     "isbn": "978-0307387899",
     "summary": "The Road tells the harrowing story of a father and son who journey across a desolate, post-apocalyptic landscape, struggling to survive and maintain their humanity.",
     "price": "$13.99",
-    "publish_date": "2006-09-26"
+    "publish_date": "2006-09-26",
+    "genre": "Post-apocalyptic Fiction"
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@ const books = [
     "isbn": "978-0375842207",
     "summary": "The Book Thief is a story set in Nazi Germany, narrated by Death, about a young girl named Liesel who steals books and shares them with those around her, including a Jewish man hiding in her basement.",
     "price": "$12.99",
-    "publish_date": "2005-03-14"
+    "publish_date": "2005-03-14",
+    "genre": "Historical Fiction"
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@ const books = [
     "isbn": "978-0684801223",
     "summary": "The Old Man and the Sea is the story of Santiago, an old fisherman, and his epic struggle to catch a giant marlin, symbolizing human perseverance and dignity.",
     "price": "$8.99",
-    "publish_date": "1952-09-01"
+    "publish_date": "1952-09-01",
+    "genre": "Literary Fiction"
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@ const books = [
     "isbn": "978-0156027328",
     "summary": "Life of Pi follows Pi Patel, a young boy stranded on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker, exploring themes of faith, survival, and storytelling.",
     "price": "$11.99",
-    "publish_date": "2001-09-11"
+    "publish_date": "2001-09-11",
+    "genre": "Adventure, Fantasy"
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@ const books = [
     "isbn": "978-1594480003",
     "summary": "The Kite Runner tells the story of Amir, a young boy from Kabul, who witnesses a betrayal that will haunt him for the rest of his life, and his long journey towards redemption.",
     "price": "$14.99",
-    "publish_date": "2003-05-29"
+    "publish_date": "2003-05-29",
+    "genre": "Historical Fiction"
   },
   {
     "id": 31,
@@ -607,7 +637,7 @@ const books = [
     "publish_date": "2018-06-05"
   },
   {
-    "id": 51,
+    "id": 50,
     "title": "Circe",
     "description": "A retelling of the story of Circe, a character from Greek mythology, exploring themes of power, transformation, and loneliness.",
     "image_url": "https://i.pinimg.com/736x/15/da/56/15da56e0b5e8b1ec5b2d29aa8462f841.jpg",
@@ -620,7 +650,7 @@ const books = [
     "publish_date": "2018-04-10"
   },
   {
-    "id": 52,
+    "id": 51,
     "title": "For the Wolf",
     "description": "A dark and atmospheric fantasy novel about a young woman with a dangerous destiny, set in a world where magic and wolves hold a deadly power.",
     "image_url": "https://i.pinimg.com/736x/55/be/72/55be723101fbc0de92d362c16fce5f23.jpg",
@@ -631,8 +661,188 @@ const books = [
     "summary": "Red has been raised for one purpose: to be sacrificed to the Wolf in the woods. But when she is taken to the heart of the forest, she uncovers secrets about her magic, her fate, and the mysterious force she must confront.",
     "price": "$16.99",
     "publish_date": "2021-06-01"
-  }
-  
+  },
+  {
+    "id": 52,
+    "title": "I'm the King of the Castle",
+    "description": "A psychological novel by Susan Hill that explores themes of bullying, isolation, and the complexities of human relationships.",
+    "image_url": "https://i.pinimg.com/736x/9d/5f/74/9d5f7467a2ba93af9d81a3b9f8e7ad47.jpg",
+    "author": "Susan Hill",
+    "publisher": "Hamish Hamilton",
+    "isbn": "978-0140034912",
+    "summary": "The novel revolves around the strained relationship between two boys, Charles Kingshaw and Edmund Hooper, as they grapple with issues of power, cruelty, and fear in an isolated English mansion.",
+    "price": "$11.99",
+    "publish_date": "1970-09-01",
+    "genre": "Psychological Fiction, Drama"
+  }, {
+    "id": 53,
+    "title": "Into the Woods",
+    "description": "A dark fairy tale-inspired novel by Tana French exploring mysteries and psychological complexities.",
+    "image_url": "https://i.pinimg.com/736x/61/2e/73/612e73b9bea9f4d34c0795175082b62c.jpg",
+    "author": "Tana French",
+    "publisher": "Viking Press",
+    "isbn": "978-0143113492",
+    "summary": "The story follows detective Rob Ryan as he investigates a chilling murder in a small Irish town, confronting haunting memories of his own childhood.",
+    "price": "$13.99",
+    "publish_date": "2007-05-17",
+    "genre": "Mystery, Psychological Fiction"
+  },
+  {
+    "id": 54,
+    "title": "Horses of Iceland",
+    "description": "A poetic novel by Sarah Moss delving into the myths, culture, and landscapes surrounding the Icelandic horse.",
+    "image_url": "https://i.pinimg.com/736x/31/8a/8c/318a8c7221833527f24c07f4274125fe.jpg",
+    "author": "Sarah Moss",
+    "publisher": "Granta Books",
+    "isbn": "978-1783781902",
+    "summary": "The book weaves historical narratives and cultural tales of the Icelandic horse, exploring its role in the Icelandic identity and landscape.",
+    "price": "$16.99",
+    "publish_date": "2016-09-01",
+    "genre": "Historical Fiction, Literary Fiction"
+  },
+  {
+    "id": 55,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "description": "The first book in J.K. Rowling's series about a young wizard discovering his magical heritage.",
+    "image_url": "https://i.pinimg.com/736x/60/86/09/608609cb613363a4bec0992fd87c1f9f.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0590353427",
+    "summary": "Harry discovers his magical lineage and attends Hogwarts School, where he begins his journey into the wizarding world and confronts the dark wizard Voldemort.",
+    "price": "$12.99",
+    "publish_date": "1997-06-26",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 56,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "description": "The second book in the Harry Potter series where Harry faces the secrets of the Chamber of Secrets.",
+    "image_url": "https://i.pinimg.com/736x/0a/79/dd/0a79dd7d98d41d8142fb2a91a62cce4a.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0439064873",
+    "summary": "Harry investigates the mystery of the Chamber of Secrets, uncovering secrets of Hogwarts and Voldemort’s past.",
+    "price": "$12.99",
+    "publish_date": "1998-07-02",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 57,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "description": "The third book in J.K. Rowling's Harry Potter series introduces the mysterious Sirius Black.",
+    "image_url": "https://i.pinimg.com/736x/0f/31/5f/0f315f4d0529531c1d4cacc9f0c161cd.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0439136365",
+    "summary": "Harry learns about Sirius Black, a prisoner who has escaped Azkaban and is said to be after him, while uncovering hidden truths.",
+    "price": "$12.99",
+    "publish_date": "1999-07-08",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 58,
+    "title": "Harry Potter and the Goblet of Fire",
+    "description": "The fourth book in the Harry Potter series, focusing on the Triwizard Tournament.",
+    "image_url": "https://i.pinimg.com/736x/60/35/5e/60355ec8affadc84a111f2be66e383fc.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0439139601",
+    "summary": "Harry is unexpectedly entered into the dangerous Triwizard Tournament, facing life-threatening challenges and Voldemort's return.",
+    "price": "$14.99",
+    "publish_date": "2000-07-08",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 59,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "description": "The fifth installment in the Harry Potter series dealing with the rebellion against the Ministry of Magic.",
+    "image_url": "https://i.pinimg.com/736x/c6/6a/2d/c66a2d15e37cf9787cfee27a2e3c4679.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0439358071",
+    "summary": "Harry fights against the Ministry’s denial of Voldemort’s return and forms Dumbledore’s Army to prepare for the battles ahead.",
+    "price": "$16.99",
+    "publish_date": "2003-06-21",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 60,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "description": "The sixth book in J.K. Rowling's series, focusing on Voldemort's past and the brewing war.",
+    "image_url": "https://i.pinimg.com/736x/e4/60/29/e4602963651613330cea28fe9e9bb795.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0439784542",
+    "summary": "Harry and Dumbledore delve into Voldemort’s past through memories, preparing for the war that looms.",
+    "price": "$17.99",
+    "publish_date": "2005-07-16",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 61,
+    "title": "Harry Potter and the Deathly Hallows",
+    "description": "The final book in the Harry Potter series where Harry faces Voldemort in a climactic battle.",
+    "image_url": "https://i.pinimg.com/736x/ae/e0/3d/aee03d0dd9e069121b185ac643c29a78.jpg",
+    "author": "J.K. Rowling",
+    "publisher": "Bloomsbury Publishing",
+    "isbn": "978-0545010221",
+    "summary": "Harry and his friends embark on a quest to destroy Voldemort's Horcruxes, culminating in an epic battle at Hogwarts.",
+    "price": "$18.99",
+    "publish_date": "2007-07-21",
+    "genre": "Fantasy, Adventure"
+  },
+  {
+    "id": 62,
+    "title": "Tom's Midnight Garden",
+    "description": "A children’s fantasy novel by Philippa Pearce about time travel and friendship.",
+    "image_url": "https://i.pinimg.com/736x/30/47/16/30471691179f486b09f3755354d9595b.jpg",
+    "author": "Philippa Pearce",
+    "publisher": "Oxford University Press",
+    "isbn": "978-0192734501",
+    "summary": "Tom discovers a magical garden that lets him travel back in time, forming an unlikely friendship with a girl named Hatty.",
+    "price": "$10.99",
+    "publish_date": "1958-12-12",
+    "genre": "Children's Fiction, Fantasy"
+  },
+  {
+    "id": 63,
+    "title": "Lost Boy",
+    "description": "A dark reimagining of Peter Pan by Christina Henry.",
+    "image_url": "https://i.pinimg.com/736x/96/d0/72/96d0721cb97d70aa19ff46b01fbd0c17.jpg",
+    "author": "Christina Henry",
+    "publisher": "Berkley Books",
+    "isbn": "978-0399584022",
+    "summary": "The story follows Jamie, one of Peter Pan's Lost Boys, as he uncovers Peter's darker nature.",
+    "price": "$14.99",
+    "publish_date": "2017-07-04",
+    "genre": "Dark Fantasy, Reimagined Classics"
+  },
+  {
+    "id": 64,
+    "title": "Magic for Liars",
+    "description": "A modern fantasy noir by Sarah Gailey about secrets and magical murder.",
+    "image_url": "https://i.pinimg.com/736x/31/3f/c4/313fc44fef87b61bd873846e7316e106.jpg",
+    "author": "Sarah Gailey",
+    "publisher": "Tor Books",
+    "isbn": "978-1250174611",
+    "summary": "Ivy Gamble, a private investigator, is drawn into a magical world while solving a murder at a school of magic.",
+    "price": "$15.99",
+    "publish_date": "2019-06-04",
+    "genre": "Urban Fantasy, Mystery"
+  },
+  {
+    "id": 65,
+    "title": "Time Regulation Institute",
+    "description": "A satirical novel by Ahmet Hamdi Tanpinar exploring bureaucracy and modernity in 20th-century Turkey.",
+    "image_url": "https://i.pinimg.com/736x/03/66/a0/0366a05f620d5e408642abb9ab4d4b4d.jpg",
+    "author": "Ahmet Hamdi Tanpinar",
+    "publisher": "Penguin Classics",
+    "isbn": "978-0143106735",
+    "summary": "The novel follows Hayri Irdal, an eccentric man who becomes involved in the surreal Time Regulation Institute, a parody of modern bureaucratic life.",
+    "price": "$13.99",
+    "publish_date": "1962-01-01",
+    "genre": "Satire, Literary Fiction"
+  }  
 ]
 
 export default books

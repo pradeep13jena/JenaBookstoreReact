@@ -13,6 +13,8 @@ function App() {
     ))
   }
 
+  console.table(books)
+
   return (
     <section>
       <div className="searchBar">
