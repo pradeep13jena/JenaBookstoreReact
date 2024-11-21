@@ -97,7 +97,7 @@ body{
 }
 
 .buyButton, .AddToCart, .NextRead{
-  padding: .9em 11px;
+  padding: 6px 11px;
   background-color: #8a7f7d;
   color: #000;
   border: none;
@@ -112,6 +112,23 @@ body{
   cursor: pointer;
 }
 
+.genreClass{
+  margin: 1.5em 15px;
+  margin-bottom: 2em;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #8a7f7d;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#genrename{
+  font-size: 1.6em;
+  padding: 4px 0;
+}
+
 @media (max-width: 450px){
   .books-details-container{
     flex-direction: column;
@@ -119,6 +136,10 @@ body{
     gap:  1em;
     justify-content: center;
     align-items: center;
+  }
+
+  .buyButton, .AddToCart, .NextRead{
+    padding: .9em 11px;
   }
 
   .book-image-container img{

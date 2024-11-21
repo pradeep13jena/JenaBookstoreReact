@@ -29,7 +29,7 @@ export default function Bookdetails() {
           <p id='alphaPublisher'><b>Publisher:</b> {alpha.publisher}</p>
           <p id='alphaSummary'><b>Summary:</b> {alpha.summary}</p>
           <p id="bookGenre">
-          <b>Genre: </b>{genres.map((genre, index) => <Link key={index} id='alphaGenre'>{genre}</Link>)}
+          <b>Genre: </b>{genres.map((genre, index) => <Link to={`/genre/${genre}`} key={index} id='alphaGenre'>{genre}</Link>)}
           </p>
         </div>
         <div className='book-button'>

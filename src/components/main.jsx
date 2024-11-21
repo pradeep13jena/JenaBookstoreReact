@@ -12,7 +12,7 @@ const router = createBrowserRouter([
         path: '/:book',
         element: <Bookdetails/>
     }, {
-        path: '/:genre',
+        path: '/genre/:cate',
         element: <Genre/>
     }
 ])
