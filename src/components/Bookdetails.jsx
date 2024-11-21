@@ -32,10 +32,15 @@ export default function Bookdetails() {
           <b>Genre: </b>{genres.map((genre, index) => <Link to={`/genre/${genre}`} key={index} id='alphaGenre'>{genre}</Link>)}
           </p>
         </div>
+        <div className='book-button-static'>
+          <button className='buyButton'>Buy Now</button>
+          <button className='AddToCart'>Add to Cart</button>
+          <button className='NextRead'>Bookmark </button>
+        </div>
         <div className='book-button'>
           <button className='buyButton'>Buy Now</button>
           <button className='AddToCart'>Add to Cart</button>
-          <button className='NextRead'>Next Read</button>
+          <button className='NextRead'>Bookmark </button>
         </div>
       </div>
     </div>

@@ -1,19 +1,30 @@
 import App from './App.jsx'
-import Bookdetails from './Bookdetails.jsx'
 import Genre from './Genre.jsx'
+import Bookdetails from './Bookdetails.jsx'
+import BrowsePage from './BrowsePage.jsx'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Bookmark from './Bookmark.jsx'
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App/>
-    }, {
-        path: '/:book',
-        element: <Bookdetails/>
-    }, {
-        path: '/genre/:cate',
-        element: <Genre/>
+        element: <App/>,
+        children: [
+            {
+                path: '/',
+                element: <BrowsePage/>
+            }, {
+                path: '/:book',
+                element: <Bookdetails/>
+            }, {
+                path: '/genre/:cate',
+                element: <Genre/>
+            }, {
+                path: '/Bookmark',
+                element: <Bookmark/>
+            }
+        ]
     }
 ])
 

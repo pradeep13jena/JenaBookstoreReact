@@ -11,7 +11,7 @@ body{
 .books-details-container{
   max-width: 1000px;
   margin-inline: auto;
-  margin-top: 6em;
+  margin-top: 4em;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -82,11 +82,11 @@ body{
 }
 
 #alphaTitle{
-  font-size: 1.9em;
+  font-size: 1.5em;
 }
 
 #alphaAuthor{
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .book-button{
@@ -96,9 +96,14 @@ body{
   gap: 1em;
 }
 
+.book-button-static{
+  display: none;
+}
+
 .buyButton, .AddToCart, .NextRead{
   padding: 6px 11px;
   background-color: #8a7f7d;
+  font-weight: 400;
   color: #000;
   border: none;
   outline: none;
@@ -130,9 +135,12 @@ body{
 }
 
 @media (max-width: 450px){
+  .book-info-container{
+    align-items: center;
+  }
   .books-details-container{
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 1em;
     gap:  1em;
     justify-content: center;
     align-items: center;
@@ -142,9 +150,17 @@ body{
     padding: .9em 11px;
   }
 
+  .book-button-static{
+    display: block;
+  }
+
   .book-image-container img{
-    width: 298px;
-    height: 420px;
+    width: 327px;
+    height: 468px;
+  }
+
+  .book-header{
+    align-items: center;
   }
 
   .book-header, .book-text{
@@ -152,7 +168,9 @@ body{
   }
 
   .book-button{
-    gap: .5em;
+    position: fixed;
+    bottom: 0;
+    gap: 1em;
     background-color: #8a7f7d;
     width: 100%;
   }

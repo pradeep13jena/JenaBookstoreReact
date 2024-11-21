@@ -10,7 +10,7 @@ export default function Genre() {
   return (
     <>
       <div className="genreClass">
-        <h1 id='genrename'>{cate} genre</h1>
+        <h1 id='genrename'>{cate}</h1>
       </div>
       <div className="bookList">
         {alpha.map(book => <BookCard key={book['id']} src={book["image_url"]} alt={book["alt"]} title={book["title"]} author={book["author"]} desc={book["description"]}/>)}
