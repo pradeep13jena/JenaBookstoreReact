@@ -97,7 +97,7 @@ body{
 }
 
 .buyButton, .AddToCart, .NextRead{
-  padding: 6px 11px;
+  padding: .9em 11px;
   background-color: #8a7f7d;
   color: #000;
   border: none;
