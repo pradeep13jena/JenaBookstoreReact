@@ -1,13 +1,14 @@
 import React from 'react'
 import '../assets/Bookdetails.css'
 import books from '../utils/bookDataNew.js'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 export default function Bookdetails() {
   const params = useParams().book
   const bookArray = books.filter(book => book.title == params)
   const alpha = bookArray[0]
   const genres = alpha.genre
+
   return (
     <div className="books-details-container" key={alpha.id}>
       <div className="book-image-container">
@@ -28,7 +29,7 @@ export default function Bookdetails() {
           <p id='alphaPublisher'><b>Publisher:</b> {alpha.publisher}</p>
           <p id='alphaSummary'><b>Summary:</b> {alpha.summary}</p>
           <p id="bookGenre">
-          <b>Genre: </b>{genres.map((genre, index) => <span key={index} id='alphaGenre'>{genre}</span>)}
+          <b>Genre: </b>{genres.map((genre, index) => <Link key={index} id='alphaGenre'>{genre}</Link>)}
           </p>
         </div>
         <div className='book-button'>

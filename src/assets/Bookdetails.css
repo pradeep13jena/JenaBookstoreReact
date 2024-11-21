@@ -73,6 +73,12 @@ body{
   color: #fff;
   margin-right: 4px;
   border-radius: 12px;
+  text-decoration: none;
+}
+
+#alphaGenre:hover{
+  background-color: #556b2f;
+  cursor: pointer;
 }
 
 #alphaTitle{
@@ -103,15 +109,16 @@ body{
 }
 
 .buyButton:hover, .AddToCart:hover, .NextRead:hover{
-  background-color: #716a68;
   cursor: pointer;
 }
 
 @media (max-width: 450px){
   .books-details-container{
     flex-direction: column;
-    margin: 4px;
+    margin-top: 2em;
     gap:  1em;
+    justify-content: center;
+    align-items: center;
   }
 
   .book-image-container img{
@@ -119,7 +126,13 @@ body{
     height: 420px;
   }
 
+  .book-header, .book-text{
+    padding: 0 6px;
+  }
+
   .book-button{
     gap: .5em;
+    background-color: #8a7f7d;
+    width: 100%;
   }
 }
