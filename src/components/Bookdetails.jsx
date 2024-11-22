@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../assets/Bookdetails.css'
 import books from '../utils/bookDataNew.js'
 import { Link, useParams } from 'react-router-dom'
@@ -6,7 +6,7 @@ import { Link, useParams } from 'react-router-dom'
 export default function Bookdetails() {
   const params = useParams().book
   const bookArray = books.filter(book => book.title == params)
-  const alpha = bookArray[0]
+  let alpha = bookArray[0]
   const genres = alpha.genre
 
   return (
@@ -40,7 +40,7 @@ export default function Bookdetails() {
         <div className='book-button'>
           <button className='buyButton'>Buy Now</button>
           <button className='AddToCart'>Add to Cart</button>
-          <button className='NextRead'>Bookmark </button>
+          <button className='NextRead'>Bookmark</button>
         </div>
       </div>
     </div>

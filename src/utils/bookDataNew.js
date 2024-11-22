@@ -14,7 +14,9 @@ const books = [
     "language": "English",
     "pages": 336,
     "format": "Paperback",
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 2,
     "title": "1984",
@@ -30,7 +32,9 @@ const books = [
     "language": "English",
     "pages": 328,
     "format": "Paperback",
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 3,
     "title": "Fahrenheit 451",
@@ -46,7 +50,9 @@ const books = [
     "language": "English",
     "pages": 194,
     "format": "Paperback",
-    "rating": 4.3
+    "rating": 4.3,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 4,
     "title": "The Great Gatsby",
@@ -62,7 +68,9 @@ const books = [
     "language": "English",
     "pages": 180,
     "format": "Paperback",
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 5,
     "title": "Moby Dick",
@@ -78,7 +86,9 @@ const books = [
     "language": "English",
     "pages": 635,
     "format": "Paperback",
-    "rating": 4.1
+    "rating": 4.1,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 6,
     "title": "War and Peace",
@@ -94,7 +104,9 @@ const books = [
     "language": "Russian",
     "pages": 1225,
     "format": "Paperback",
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 7,
     "title": "The Catcher in the Rye",
@@ -110,7 +122,9 @@ const books = [
     "language": "English",
     "pages": 277,
     "format": "Paperback",
-    "rating": 4.0
+    "rating": 4.0,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 8,
     "title": "The Hobbit",
@@ -126,7 +140,9 @@ const books = [
     "language": "English",
     "pages": 310,
     "format": "Paperback",
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
   "id": 9,
   "title": "Pride and Prejudice",
@@ -142,7 +158,9 @@ const books = [
   "language": "English",
   "pages": 364,
   "format": "Paperback",
-  "rating": 4.29
+  "rating": 4.29,
+  "is_bookmarked": false, 
+  "is_cart": false
 }, {
     "id": 10,
     "title": "Jane Eyre",
@@ -158,7 +176,9 @@ const books = [
     "language": "English",
     "pages": 532,
     "format": "Paperback",
-    "rating": 4.5
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 11,
     "title": "Brave New World",
@@ -174,7 +194,9 @@ const books = [
     "language": "English",
     "pages": 268,
     "format": "Paperback",
-    "rating": 4.2
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 12,
     "title": "The Odyssey",
@@ -190,7 +212,9 @@ const books = [
     "language": "Ancient Greek",
     "pages": 541,
     "format": "Paperback",
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 13,
     "title": "The Brothers Karamazov",
@@ -206,7 +230,9 @@ const books = [
     "language": "Russian",
     "pages": 796,
     "format": "Paperback",
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 14,
     "title": "Anna Karenina",
@@ -222,7 +248,9 @@ const books = [
     "language": "Russian",
     "pages": 864,
     "format": "Paperback",
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 15,
     "title": "The Count of Monte Cristo",
@@ -238,7 +266,9 @@ const books = [
     "language": "French",
     "pages": 1276,
     "format": "Paperback",
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
 }, {
     "id": 16,
     "title": "Crime and Punishment",
@@ -254,7 +284,9 @@ const books = [
     "language": "Russian",
     "pages": 671,
     "format": "Paperback",
-    "rating": 4.5
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
 },{
     "id": 17,
     "title": "Wuthering Heights",
@@ -270,7 +302,9 @@ const books = [
     "language": "English",
     "pages": 416,
     "format": "Paperback",
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
 },{
   "id": 18,
   "title": "The Picture of Dorian Gray",
@@ -286,7 +320,9 @@ const books = [
   "language": "English",
   "pages": 254,
   "format": "Paperback",
-  "rating": 4.3
+  "rating": 4.3,
+  "is_bookmarked": false, 
+  "is_cart": false
 },
 {
   "id": 19,
@@ -303,7 +339,9 @@ const books = [
   "language": "English",
   "pages": 505,
   "format": "Paperback",
-  "rating": 4.4
+  "rating": 4.4,
+  "is_bookmarked": false, 
+  "is_cart": false
 },
 {
   "id": 20,
@@ -320,7 +358,9 @@ const books = [
   "language": "English",
   "pages": 418,
   "format": "Paperback",
-  "rating": 4.3
+  "rating": 4.3,
+  "is_bookmarked": false, 
+  "is_cart": false
 }, {
     "id": 21,
     "title": "Les Misérables",
@@ -336,7 +376,9 @@ const books = [
     "language": "French",
     "pages": 1463,
     "format": "Hardcover",
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 22,
@@ -353,7 +395,9 @@ const books = [
     "language": "French",
     "pages": 432,
     "format": "Paperback",
-    "rating": 4.3
+    "rating": 4.3,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 23,
@@ -370,7 +414,9 @@ const books = [
     "language": "English",
     "pages": 280,
     "format": "Paperback",
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 24,
@@ -387,7 +433,9 @@ const books = [
     "language": "Portuguese",
     "pages": 208,
     "format": "Paperback",
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 25,
@@ -404,7 +452,9 @@ const books = [
     "language": "Spanish",
     "pages": 417,
     "format": "Paperback",
-    "rating": 4.6
+    "rating": 4.6,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 26,
@@ -421,7 +471,9 @@ const books = [
     "language": "English",
     "pages": 287,
     "format": "Paperback",
-    "rating": 4.5
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 27,
@@ -438,7 +490,9 @@ const books = [
     "language": "English",
     "pages": 552,
     "format": "Hardcover",
-    "rating": 4.6
+    "rating": 4.6,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 28,
@@ -455,7 +509,9 @@ const books = [
     "language": "English",
     "pages": 127,
     "format": "Hardcover",
-    "rating": 4.2
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
   "id": 29,
@@ -472,7 +528,9 @@ const books = [
   "language": "English",
   "pages": 319,
   "format": "Paperback",
-  "rating": 4.5
+  "rating": 4.5,
+  "is_bookmarked": false, 
+  "is_cart": false
 }, {
   "id": 30,
   "title": "The Kite Runner",
@@ -488,7 +546,9 @@ const books = [
   "language": "English",
   "pages": 371,
   "format": "Paperback",
-  "rating": 4.5
+  "rating": 4.5,
+  "is_bookmarked": false, 
+  "is_cart": false
 }, {
     "id": 31,
     "title": "The Bell Jar",
@@ -504,7 +564,9 @@ const books = [
     "language": "English",
     "pages": 288,
     "format": "Paperback",
-    "rating": 4.2
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 32,
@@ -521,7 +583,9 @@ const books = [
     "language": "English",
     "pages": 447,
     "format": "Paperback",
-    "rating": 4.6
+    "rating": 4.6,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 33,
@@ -538,7 +602,9 @@ const books = [
     "language": "English",
     "pages": 331,
     "format": "Paperback",
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 34,
@@ -555,7 +621,9 @@ const books = [
     "language": "English",
     "pages": 336,
     "format": "Paperback",
-    "rating": 4.1
+    "rating": 4.1,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 35,
@@ -572,7 +640,9 @@ const books = [
     "language": "English",
     "pages": 311,
     "format": "Paperback",
-    "rating": 4.5
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 36,
@@ -589,7 +659,9 @@ const books = [
     "language": "English",
     "pages": 275,
     "format": "Paperback",
-    "rating": 4.3
+    "rating": 4.3,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 37,
@@ -606,7 +678,9 @@ const books = [
     "language": "English",
     "pages": 240,
     "format": "Paperback",
-    "rating": 4.2
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 38,
@@ -623,7 +697,9 @@ const books = [
     "language": "English",
     "pages": 192,
     "format": "Paperback",
-    "rating": 4.3
+    "rating": 4.3,
+    "is_bookmarked": false, 
+    "is_cart": false
 },
 {
     "id": 39,
@@ -640,7 +716,9 @@ const books = [
     "language": "English",
     "pages": 448,
     "format": "Paperback",
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
       "id": 40,
@@ -657,7 +735,9 @@ const books = [
       "language": "English",
       "pages": 453,
       "format": "Paperback",
-      "rating": 4.1
+      "rating": 4.1,
+      "is_bookmarked": false, 
+      "is_cart": false
   },
   {
       "id": 41,
@@ -674,10 +754,10 @@ const books = [
       "language": "English",
       "pages": 464,
       "format": "Paperback",
-      "rating": 4.2
-  }
-  ,
-  {
+      "rating": 4.2,
+      "is_bookmarked": false, 
+      "is_cart": false
+  }, {
     "id": 42,
     "title": "The Goldfinch",
     "description": "A Pulitzer Prize-winning novel by Donna Tartt about a boy who survives an explosion at an art museum and takes a priceless painting.",
@@ -689,7 +769,12 @@ const books = [
     "summary": "The Goldfinch follows Theo, a young boy who survives a bombing at an art museum, and his journey through grief, guilt, and the obsession with a stolen painting that alters the course of his life.",
     "price": "$15.99",
     "publish_date": "2013-10-22",
-    "language": "English", "pages": 784, "format": "Hardcover", "rating": 4.4
+    "language": "English", 
+    "pages": 784, 
+    "format": "Hardcover", 
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 43,
@@ -703,7 +788,12 @@ const books = [
     "summary": "The Night Circus follows the rivalry between two magicians, Celia and Marco, who are bound by a magical competition that spans several years, set against the backdrop of a magical circus.",
     "price": "$13.99",
     "publish_date": "2011-09-13",
-    "language": "English", "pages": 387, "format": "Hardcover", "rating": 4.1
+    "language": "English", 
+    "pages": 387, 
+    "format": "Hardcover", 
+    "rating": 4.1,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 44,
@@ -717,7 +807,12 @@ const books = [
     "summary": "The Shadow of the Wind is a literary thriller set in post-World War II Barcelona, following Daniel Sempere as he unravels the mystery behind an obscure book by an unknown author, uncovering dark secrets.",
     "price": "$12.99",
     "publish_date": "2004-04-06",
-    "language": "English", "pages": 487, "format": "Paperback", "rating": 4.5
+    "language": "English", 
+    "pages": 487, 
+    "format": "Paperback", 
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 45,
@@ -731,7 +826,12 @@ const books = [
     "summary": "A Tale of Two Cities is set during the French Revolution and tells the story of the French Dr. Manette, his family, and the Englishman Charles Darnay, focusing on themes of sacrifice and resurrection.",
     "price": "$9.99",
     "publish_date": "1859-04-30",
-    "language": "English", "pages": 448, "format": "Paperback", "rating": 4.0
+    "language": "English", 
+    "pages": 448, 
+    "format": "Paperback", 
+    "rating": 4.0,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 46,
@@ -745,7 +845,12 @@ const books = [
     "summary": "The Lovely Bones tells the story of Susie Salmon, a young girl who is murdered and watches from her afterlife as her family copes with the grief and search for her killer.",
     "price": "$11.99",
     "publish_date": "2002-06-01",
-    "language": "English", "pages": 328, "format": "Hardcover", "rating": 4.0
+    "language": "English", 
+    "pages": 328, 
+    "format": "Hardcover", 
+    "rating": 4.0,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 47,
@@ -759,7 +864,12 @@ const books = [
     "summary": "Beloved tells the story of Sethe, an escaped slave, and her family’s haunting by a mysterious figure, Beloved, symbolizing the trauma and memories of slavery.",
     "price": "$14.99",
     "publish_date": "1987-09-16",
-    "language": "English", "pages": 324, "format": "Paperback", "rating": 4.3
+    "language": "English", 
+    "pages": 324, 
+    "format": "Paperback", 
+    "rating": 4.3,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 48,
@@ -773,7 +883,12 @@ const books = [
     "summary": "Atonement follows Briony Tallis, a young girl who makes a false accusation that changes the lives of her sister Cecilia and her lover Robbie, and explores the consequences of her actions over the years.",
     "price": "$12.99",
     "publish_date": "2001-09-04",
-    "language": "English", "pages": 480, "format": "Paperback", "rating": 4.0
+    "language": "English", 
+    "pages": 480, 
+    "format": "Paperback", 
+    "rating": 4.0,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 49,
@@ -787,7 +902,12 @@ const books = [
     "summary": "Set in a future where people are losing their memories in increasingly bizarre ways, the novel follows a husband and wife separated by tragedy as they try to survive in a fragmented world.",
     "price": "$15.99",
     "publish_date": "2018-06-05",
-    "language": "English", "pages": 496, "format": "Hardcover", "rating": 4.2
+    "language": "English", 
+    "pages": 496, 
+    "format": "Hardcover", 
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 50,
@@ -801,7 +921,12 @@ const books = [
     "summary": "In this novel, Circe is a powerful yet isolated figure, cursed to live in exile. The story reimagines her journey and explores her transformation from a young woman into a goddess.",
     "price": "$14.99",
     "publish_date": "2018-04-10",
-    "language": "English", "pages": 393, "format": "Hardcover", "rating": 4.6
+    "language": "English", 
+    "pages": 393, 
+    "format": "Hardcover", 
+    "rating": 4.6,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 51,
@@ -815,7 +940,12 @@ const books = [
     "summary": "Red has been raised for one purpose: to be sacrificed to the Wolf in the woods. But when she is taken to the heart of the forest, she uncovers secrets about her magic, her fate, and the mysterious force she must confront.",
     "price": "$16.99",
     "publish_date": "2021-06-01",
-    "language": "English", "pages": 480, "format": "Paperback", "rating": 4.1
+    "language": "English", 
+    "pages": 480, 
+    "format": "Paperback", 
+    "rating": 4.1,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 52,
@@ -829,7 +959,12 @@ const books = [
     "price": "$11.99",
     "publish_date": "1970-09-01",
     "genre": ["Psychological Fiction", "Drama"],
-    "language": "English", "pages": 224, "format": "Paperback", "rating": 4.0
+    "language": "English", 
+    "pages": 224, 
+    "format": "Paperback", 
+    "rating": 4.0,
+    "is_bookmarked": false, 
+    "is_cart": false
   }, {
     "id": 53,
     "title": "Into the Woods",
@@ -842,7 +977,12 @@ const books = [
     "price": "$13.99",
     "publish_date": "2007-05-17",
     "genre": ["Mystery", "Psychological Fiction"],
-    "language": "English", "pages": 368, "format": "Paperback", "rating": 4.5
+    "language": "English", 
+    "pages": 368, 
+    "format": "Paperback", 
+    "rating": 4.5,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 54,
@@ -859,7 +999,9 @@ const books = [
     "language": "English", 
     "pages": 320, 
     "format": "Hardcover", 
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 55,
@@ -876,7 +1018,9 @@ const books = [
     "language": "English", 
     "pages": 223, 
     "format": "Hardcover", 
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 56,
@@ -893,7 +1037,9 @@ const books = [
     "language": "English", 
     "pages": 251, 
     "format": "Hardcover", 
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 57,
@@ -910,7 +1056,9 @@ const books = [
     "language": "English", 
     "pages": 317, 
     "format": "Hardcover", 
-    "rating": 4.8
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 58,
@@ -927,7 +1075,9 @@ const books = [
     "language": "English", 
     "pages": 636, 
     "format": "Hardcover", 
-    "rating": 4.9
+    "rating": 4.9,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 59,
@@ -941,7 +1091,12 @@ const books = [
     "price": "$16.99",
     "publish_date": "2003-06-21",
     "genre": ["Fantasy", "Adventure"],
-    "language": "English", "pages": 766, "format": "Hardcover", "rating": 4.8
+    "language": "English", 
+    "pages": 766, 
+    "format": "Hardcover", 
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 60,
@@ -955,7 +1110,12 @@ const books = [
     "price": "$17.99",
     "publish_date": "2005-07-16",
     "genre": ["Fantasy", "Adventure"],
-    "language": "English", "pages": 607, "format": "Hardcover", "rating": 4.8
+    "language": "English", 
+    "pages": 607, 
+    "format": "Hardcover", 
+    "rating": 4.8,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 61,
@@ -972,7 +1132,9 @@ const books = [
     "language": "English", 
     "pages": 607, 
     "format": "Hardcover", 
-    "rating": 4.9
+    "rating": 4.9,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 62,
@@ -989,7 +1151,9 @@ const books = [
     "language": "English", 
     "pages": 240, 
     "format": "Paperback", 
-    "rating": 4.7
+    "rating": 4.7,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 63,
@@ -1006,7 +1170,9 @@ const books = [
     "language": "English", 
     "pages": 304, 
     "format": "Paperback", 
-    "rating": 4.6
+    "rating": 4.6,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 64,
@@ -1023,7 +1189,9 @@ const books = [
     "language": "English", 
     "pages": 368, 
     "format": "Paperback", 
-    "rating": 4.4
+    "rating": 4.4,
+    "is_bookmarked": false, 
+    "is_cart": false
   },
   {
     "id": 65,
@@ -1040,7 +1208,9 @@ const books = [
     "language": "English", 
     "pages": 416, 
     "format": "Paperback", 
-    "rating": 4.2
+    "rating": 4.2,
+    "is_bookmarked": false, 
+    "is_cart": false
   }  
 ]
 
