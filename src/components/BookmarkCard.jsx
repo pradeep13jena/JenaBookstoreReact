@@ -1,5 +1,4 @@
 import React, {useContext} from "react";
-import { Link } from "react-router-dom";
 import booksContext from '../utils/booksContext.js'
 
 export default function BookmarkCard(Props) {
