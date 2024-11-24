@@ -1,13 +1,27 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import '../assets/Bookdetails.css'
-import books from '../utils/bookDataNew.js'
+import books from '../utils/bookDataNew'
 import { Link, useParams } from 'react-router-dom'
+import booksContext from '../utils/booksContext.js'
 
 export default function Bookdetails() {
   const params = useParams().book
   const bookArray = books.filter(book => book.title == params)
   let alpha = bookArray[0]
   const genres = alpha.genre
+
+  const {booksC, setBooksC} = useContext(booksContext)
+  function handleBookmark(id){
+    const newArray = booksC.map(book => {
+      if(book.id == id){
+        return {...book, is_bookmarked: !book.is_bookmarked}
+      } else {
+        return book
+      }
+    })
+    setBooksC(newArray)
+    localStorage.setItem('books', JSON.stringify(newArray))
+  }
 
   return (
     <div className="books-details-container" key={alpha.id}>
@@ -40,7 +54,7 @@ export default function Bookdetails() {
         <div className='book-button'>
           <button className='buyButton'>Buy Now</button>
           <button className='AddToCart'>Add to Cart</button>
-          <button className='NextRead'>Bookmark</button>
+          <button className='NextRead' onClick={() => handleBookmark(alpha.id)}>Bookmark</button>
         </div>
       </div>
     </div>

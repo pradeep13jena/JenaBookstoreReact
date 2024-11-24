@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0PX;
+}
+
+.bookmarkList{
+  max-width: 1400px;
+  margin-inline:auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.3em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.Bookmarkbooks{
+  width: 31%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 160px;
+  gap: 1em;
+  padding: 10px 3px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all .2s;
+}
+.bookmarkImage img{
+  width: 100px;
+  height: 140px;
+}
+
+.bookmarkDetails{
+  display: flex;
+  flex-direction: column;
+  gap: .4em;
+  word-break: break-word;
+  flex: 1;
+}
+
+.bookmarkButtons{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1em;
+  padding-right: 8px;
+}
+
+#bookmarkTitle{
+  font-size: 1.2em;
+  font-family: "Playfair Display", serif;
+}
+
+#bookmarkAuthor, #bookmarkPages, #bookmarRating{
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+#bmButtonBM, #bmButtonBuy, #bmButtonCart{
+  background-color: #b0b486;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 1.1em;
+  padding: 5px 7px;
+  border-radius: 15px;
+}
+
+#bmButtonBM, #bmButtonBuy, #bmButtonCart{
+  background-color: #716a68;
+  cursor: pointer;
+}
+
+@media (max-width: 450px){
+  .bookmarkList{
+    margin-inline: 4px;
+  }
+  .Bookmarkbooks{
+    width: 100%;
+  }
+}
