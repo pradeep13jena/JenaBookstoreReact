@@ -1,6 +1,6 @@
 import React, {useContext, useEffect} from 'react'
 import booksContext from '../utils/booksContext'
-import BookmarkCard from './bookmarkCard'
+import BookmarkCard from './BookmarkCard.jsx'
 import '../assets/BookmarkCard.css'
 
 export default function Bookmark() {
