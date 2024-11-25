@@ -12,6 +12,7 @@ export default function Bookdetails() {
 
   const {booksC, setBooksC} = useContext(booksContext)
   function handleBookmark(id){
+    console.log()
     const newArray = booksC.map(book => {
       if(book.id == id){
         return {...book, is_bookmarked: !book.is_bookmarked}
